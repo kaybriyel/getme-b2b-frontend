@@ -4,7 +4,8 @@ class PageProps
   private static ?PageProps $current = null;
 
   public HeaderProps $header;
-  public array $includes;
+  public IncludeProps $include;
+  
   function __construct($props = [])
   {
     $this->header = new HeaderProps;
@@ -41,7 +42,8 @@ class PageProps
   {
     if (!static::$current) {
       $page = Param::get('page');
-      $props = config("pages.$page");
+      $layout = Param::get('layout');
+      $props = config("pages_props.$layout.$page");
       static::$current = new PageProps($props);
     }
     return static::$current;

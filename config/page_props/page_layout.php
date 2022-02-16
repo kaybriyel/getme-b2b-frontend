@@ -1,5 +1,4 @@
 <?php
-
 /*********** PAGE PROPS
   'page-name' => [
     'include' => []
@@ -54,6 +53,5 @@ return [
         'assets/js/plugins/slider-range.js'
       ]
     ]
-  ],
-  'category'
+  ]
 ];
