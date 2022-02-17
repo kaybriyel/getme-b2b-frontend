@@ -11,9 +11,9 @@
         <meta property="og:url" content="" />
         <meta property="og:image" content="" />
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
+        <link rel="shortcut icon" type="image/x-icon" href="/frontendassets/imgs/theme/favicon.svg" />
         <!-- Template CSS -->
-        <link rel="stylesheet" href="assets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
+        <link rel="stylesheet" href="/frontendassets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
     </head>
 
     <body>
@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="header-wrap">
                         <div class="logo logo-width-1">
-                            <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                            <a href="/frontendindex.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                         </div>
                         <div class="header-right">
                             <div class="search-style-2">
@@ -69,49 +69,49 @@
 										</form>
 									</div>									
 									<div class="header-action-icon-2">
-										<a href="shop-compare.php">
+										<a href="/frontendshop-compare.php">
 											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-compare.svg" />
 											<span class="pro-count blue">3</span>
 										</a>
-										<a href="shop-compare.php"><span class="lable ml-0">Compare</span></a>
+										<a href="/frontendshop-compare.php"><span class="lable ml-0">Compare</span></a>
 									</div>
 									<div class="header-action-icon-2">
-										<a href="shop-wishlist.php">
+										<a href="/frontendshop-wishlist.php">
 											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-heart.svg" />
 											<span class="pro-count blue">6</span>
 										</a>
-										<a href="shop-wishlist.php"><span class="lable">Wishlist</span></a>
+										<a href="/frontendshop-wishlist.php"><span class="lable">Wishlist</span></a>
 									</div>
 									<div class="header-action-icon-2">
-										<a class="mini-cart-icon" href="shop-cart.php">
+										<a class="mini-cart-icon" href="/frontendshop-cart.php">
 											<img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
 											<span class="pro-count blue">2</span>
 										</a>
-										<a href="shop-cart.php"><span class="lable">Cart</span></a>
+										<a href="/frontendshop-cart.php"><span class="lable">Cart</span></a>
 										<div class="cart-dropdown-wrap cart-dropdown-hm2">
 											<ul>
 												<li>
 													<div class="shopping-cart-img">
-														<a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+														<a href="/frontendshop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
 													</div>
 													<div class="shopping-cart-title">
-														<h4><a href="shop-product-right.php">Daisy Casual Bag</a></h4>
+														<h4><a href="/frontendshop-product-right.php">Daisy Casual Bag</a></h4>
 														<h4><span>1 × </span>$800.00</h4>
 													</div>
 													<div class="shopping-cart-delete">
-														<a href="#"><i class="fi-rs-cross-small"></i></a>
+														<a href="/frontend#"><i class="fi-rs-cross-small"></i></a>
 													</div>
 												</li>
 												<li>
 													<div class="shopping-cart-img">
-														<a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-2.jpg" /></a>
+														<a href="/frontendshop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-2.jpg" /></a>
 													</div>
 													<div class="shopping-cart-title">
-														<h4><a href="shop-product-right.php">Corduroy Shirts</a></h4>
+														<h4><a href="/frontendshop-product-right.php">Corduroy Shirts</a></h4>
 														<h4><span>1 × </span>$3200.00</h4>
 													</div>
 													<div class="shopping-cart-delete">
-														<a href="#"><i class="fi-rs-cross-small"></i></a>
+														<a href="/frontend#"><i class="fi-rs-cross-small"></i></a>
 													</div>
 												</li>
 											</ul>
@@ -120,25 +120,25 @@
 													<h4>Total <span>$4000.00</span></h4>
 												</div>
 												<div class="shopping-cart-button">
-													<a href="shop-cart.php" class="outline">View cart</a>
-													<a href="shop-checkout.php">Checkout</a>
+													<a href="/frontendshop-cart.php" class="outline">View cart</a>
+													<a href="/frontendshop-checkout.php">Checkout</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="header-action-icon-2">
-										<a href="page-account.php">
+										<a href="/frontendpage-account.php">
 											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-user.svg" />
 										</a>
-										<a href="page-account.php"><span class="lable ml-0">Account</span></a>
+										<a href="/frontendpage-account.php"><span class="lable ml-0">Account</span></a>
 										<div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
 											<ul>
-												<li><a href="page-account.php"><i class="fi fi-rs-user mr-10"></i>My Account</a></li>
-												<li><a href="page-account.php"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a></li>
-												<li><a href="page-account.php"><i class="fi fi-rs-label mr-10"></i>My Voucher</a></li>
-												<li><a href="shop-wishlist.php"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a></li>
-												<li><a href="page-account.php"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a></li>
-												<li><a href="page-login.php"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a></li>
+												<li><a href="/frontendpage-account.php"><i class="fi fi-rs-user mr-10"></i>My Account</a></li>
+												<li><a href="/frontendpage-account.php"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a></li>
+												<li><a href="/frontendpage-account.php"><i class="fi fi-rs-label mr-10"></i>My Voucher</a></li>
+												<li><a href="/frontendshop-wishlist.php"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a></li>
+												<li><a href="/frontendpage-account.php"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a></li>
+												<li><a href="/frontendpage-login.php"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a></li>
 											</ul>											
 										</div>
 									</div>
@@ -152,11 +152,11 @@
                 <div class="container">
                     <div class="header-wrap header-space-between position-relative">
                         <div class="logo logo-width-1 d-block d-lg-none">
-                            <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                            <a href="/frontendindex.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                         </div>
                         <div class="header-nav d-none d-lg-flex">
                             <div class="main-categori-wrap d-none d-lg-block">
-                                <a class="categories-button-active" href="#">
+                                <a class="categories-button-active" href="/frontend#">
                                     <span class="fi-rs-apps"></span> <span class="et">Browse</span> All Categories
                                     <i class="fi-rs-angle-down"></i>
                                 </a>
@@ -164,36 +164,36 @@
                                     <div class="d-flex categori-dropdown-inner">
                                         <ul>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
                                             </li>
                                         </ul>
                                         <ul class="end">
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
                                             </li>
                                             <li>
-                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
+                                                <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -201,18 +201,18 @@
                                         <div class="d-flex categori-dropdown-inner">
                                             <ul>
                                                 <li>
-                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
+                                                    <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
+                                                    <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
                                                 </li>
                                             </ul>
                                             <ul class="end">
                                                 <li>
-                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
+                                                    <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
+                                                    <a href="/frontendshop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -223,106 +223,106 @@
                             <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
                                 <nav>
                                     <ul>
-                                        <li class="hot-deals"><img src="assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="shop-grid-right.php">Hot Deals</a></li>
+                                        <li class="hot-deals"><img src="assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="/frontendshop-grid-right.php">Hot Deals</a></li>
                                         <li>
-                                            <a class="active" href="index.php">Home <i class="fi-rs-angle-down"></i></a>
+                                            <a class="active" href="/frontendindex.php">Home <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.php">Home 1</a></li>
-                                                <li><a href="index-2.php">Home 2</a></li>
-                                                <li><a href="index-3.php">Home 3</a></li>
-                                                <li><a href="index-4.php">Home 4</a></li>
-                                        <li><a href="index-5.php">Home 5</a></li>
-                                        <li><a href="index-6.php">Home 6</a></li>
+                                                <li><a href="/frontendindex.php">Home 1</a></li>
+                                                <li><a href="/frontendindex-2.php">Home 2</a></li>
+                                                <li><a href="/frontendindex-3.php">Home 3</a></li>
+                                                <li><a href="/frontendindex-4.php">Home 4</a></li>
+                                        <li><a href="/frontendindex-5.php">Home 5</a></li>
+                                        <li><a href="/frontendindex-6.php">Home 6</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="page-about.php">About</a>
+                                            <a href="/frontendpage-about.php">About</a>
                                         </li>
                                         <li>
-                                            <a href="shop-grid-right.php">Shop <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/frontendshop-grid-right.php">Shop <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="shop-grid-right.php">Shop Grid – Right Sidebar</a></li>
-                                                <li><a href="shop-grid-left.php">Shop Grid – Left Sidebar</a></li>
-                                                <li><a href="shop-list-right.php">Shop List – Right Sidebar</a></li>
-                                                <li><a href="shop-list-left.php">Shop List – Left Sidebar</a></li>
-                                                <li><a href="shop-fullwidth.php">Shop - Wide</a></li>
+                                                <li><a href="/frontendshop-grid-right.php">Shop Grid – Right Sidebar</a></li>
+                                                <li><a href="/frontendshop-grid-left.php">Shop Grid – Left Sidebar</a></li>
+                                                <li><a href="/frontendshop-list-right.php">Shop List – Right Sidebar</a></li>
+                                                <li><a href="/frontendshop-list-left.php">Shop List – Left Sidebar</a></li>
+                                                <li><a href="/frontendshop-fullwidth.php">Shop - Wide</a></li>
                                                 <li>
-                                                    <a href="#">Single Product <i class="fi-rs-angle-right"></i></a>
+                                                    <a href="/frontend#">Single Product <i class="fi-rs-angle-right"></i></a>
                                                     <ul class="level-menu">
-                                                        <li><a href="shop-product-right.php">Product – Right Sidebar</a></li>
-                                                        <li><a href="shop-product-left.php">Product – Left Sidebar</a></li>
-                                                        <li><a href="shop-product-full.php">Product – No sidebar</a></li>
-                                                        <li><a href="shop-product-vendor.php">Product – Vendor Infor</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Product – Right Sidebar</a></li>
+                                                        <li><a href="/frontendshop-product-left.php">Product – Left Sidebar</a></li>
+                                                        <li><a href="/frontendshop-product-full.php">Product – No sidebar</a></li>
+                                                        <li><a href="/frontendshop-product-vendor.php">Product – Vendor Infor</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="shop-filter.php">Shop – Filter</a></li>
-                                                <li><a href="shop-wishlist.php">Shop – Wishlist</a></li>
-                                                <li><a href="shop-cart.php">Shop – Cart</a></li>
-                                                <li><a href="shop-checkout.php">Shop – Checkout</a></li>
-                                                <li><a href="shop-compare.php">Shop – Compare</a></li>
+                                                <li><a href="/frontendshop-filter.php">Shop – Filter</a></li>
+                                                <li><a href="/frontendshop-wishlist.php">Shop – Wishlist</a></li>
+                                                <li><a href="/frontendshop-cart.php">Shop – Cart</a></li>
+                                                <li><a href="/frontendshop-checkout.php">Shop – Checkout</a></li>
+                                                <li><a href="/frontendshop-compare.php">Shop – Compare</a></li>
                                                 <li>
-                                                    <a href="#">Shop Invoice<i class="fi-rs-angle-right"></i></a>
+                                                    <a href="/frontend#">Shop Invoice<i class="fi-rs-angle-right"></i></a>
                                                     <ul class="level-menu">
-                                                        <li><a href="shop-invoice-1.php">Shop Invoice 1</a></li>
-                                                        <li><a href="shop-invoice-2.php">Shop Invoice 2</a></li>
-                                                        <li><a href="shop-invoice-3.php">Shop Invoice 3</a></li>
-                                                        <li><a href="shop-invoice-4.php">Shop Invoice 4</a></li>
-                                                        <li><a href="shop-invoice-5.php">Shop Invoice 5</a></li>
-                                                        <li><a href="shop-invoice-6.php">Shop Invoice 6</a></li>
+                                                        <li><a href="/frontendshop-invoice-1.php">Shop Invoice 1</a></li>
+                                                        <li><a href="/frontendshop-invoice-2.php">Shop Invoice 2</a></li>
+                                                        <li><a href="/frontendshop-invoice-3.php">Shop Invoice 3</a></li>
+                                                        <li><a href="/frontendshop-invoice-4.php">Shop Invoice 4</a></li>
+                                                        <li><a href="/frontendshop-invoice-5.php">Shop Invoice 5</a></li>
+                                                        <li><a href="/frontendshop-invoice-6.php">Shop Invoice 6</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Vendors <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/frontend#">Vendors <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="vendors-grid.php">Vendors Grid</a></li>
-                                                <li><a href="vendors-list.php">Vendors List</a></li>
-                                                <li><a href="vendor-details-1.php">Vendor Details 01</a></li>
-                                                <li><a href="vendor-details-2.php">Vendor Details 02</a></li>
-                                                <li><a href="vendor-dashboard.php">Vendor Dashboard</a></li>
-                                                <li><a href="vendor-guide.php">Vendor Guide</a></li>
+                                                <li><a href="/frontendvendors-grid.php">Vendors Grid</a></li>
+                                                <li><a href="/frontendvendors-list.php">Vendors List</a></li>
+                                                <li><a href="/frontendvendor-details-1.php">Vendor Details 01</a></li>
+                                                <li><a href="/frontendvendor-details-2.php">Vendor Details 02</a></li>
+                                                <li><a href="/frontendvendor-dashboard.php">Vendor Dashboard</a></li>
+                                                <li><a href="/frontendvendor-guide.php">Vendor Guide</a></li>
                                             </ul>
                                         </li>
                                         <li class="position-static">
-                                            <a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/frontend#">Mega menu <i class="fi-rs-angle-down"></i></a>
                                             <ul class="mega-menu">
                                                 <li class="sub-mega-menu sub-mega-menu-width-22">
-                                                    <a class="menu-title" href="#">Fruit & Vegetables</a>
+                                                    <a class="menu-title" href="/frontend#">Fruit & Vegetables</a>
                                                     <ul>
-                                                        <li><a href="shop-product-right.php">Meat & Poultry</a></li>
-                                                        <li><a href="shop-product-right.php">Fresh Vegetables</a></li>
-                                                        <li><a href="shop-product-right.php">Herbs & Seasonings</a></li>
-                                                        <li><a href="shop-product-right.php">Cuts & Sprouts</a></li>
-                                                        <li><a href="shop-product-right.php">Exotic Fruits & Veggies</a></li>
-                                                        <li><a href="shop-product-right.php">Packaged Produce</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Meat & Poultry</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Fresh Vegetables</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Herbs & Seasonings</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Cuts & Sprouts</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Exotic Fruits & Veggies</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Packaged Produce</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="sub-mega-menu sub-mega-menu-width-22">
-                                                    <a class="menu-title" href="#">Breakfast & Dairy</a>
+                                                    <a class="menu-title" href="/frontend#">Breakfast & Dairy</a>
                                                     <ul>
-                                                        <li><a href="shop-product-right.php">Milk & Flavoured Milk</a></li>
-                                                        <li><a href="shop-product-right.php">Butter and Margarine</a></li>
-                                                        <li><a href="shop-product-right.php">Eggs Substitutes</a></li>
-                                                        <li><a href="shop-product-right.php">Marmalades</a></li>
-                                                        <li><a href="shop-product-right.php">Sour Cream</a></li>
-                                                        <li><a href="shop-product-right.php">Cheese</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Milk & Flavoured Milk</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Butter and Margarine</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Eggs Substitutes</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Marmalades</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Sour Cream</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Cheese</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="sub-mega-menu sub-mega-menu-width-22">
-                                                    <a class="menu-title" href="#">Meat & Seafood</a>
+                                                    <a class="menu-title" href="/frontend#">Meat & Seafood</a>
                                                     <ul>
-                                                        <li><a href="shop-product-right.php">Breakfast Sausage</a></li>
-                                                        <li><a href="shop-product-right.php">Dinner Sausage</a></li>
-                                                        <li><a href="shop-product-right.php">Chicken</a></li>
-                                                        <li><a href="shop-product-right.php">Sliced Deli Meat</a></li>
-                                                        <li><a href="shop-product-right.php">Wild Caught Fillets</a></li>
-                                                        <li><a href="shop-product-right.php">Crab and Shellfish</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Breakfast Sausage</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Dinner Sausage</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Chicken</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Sliced Deli Meat</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Wild Caught Fillets</a></li>
+                                                        <li><a href="/frontendshop-product-right.php">Crab and Shellfish</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="sub-mega-menu sub-mega-menu-width-34">
                                                     <div class="menu-banner-wrap">
-                                                        <a href="shop-product-right.php"><img src="assets/imgs/banner/banner-menu.png" alt="Nest" /></a>
+                                                        <a href="/frontendshop-product-right.php"><img src="assets/imgs/banner/banner-menu.png" alt="Nest" /></a>
                                                         <div class="menu-banner-content">
                                                             <h4>Hot deals</h4>
                                                             <h3>
@@ -333,7 +333,7 @@
                                                                 <span class="new-price text-success">Save to 50%</span>
                                                             </div>
                                                             <div class="menu-banner-btn">
-                                                                <a href="shop-product-right.php">Shop now</a>
+                                                                <a href="/frontendshop-product-right.php">Shop now</a>
                                                             </div>
                                                         </div>
                                                         <div class="menu-banner-discount">
@@ -347,38 +347,38 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="blog-category-grid.php">Blog <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/frontendblog-category-grid.php">Blog <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog-category-grid.php">Blog Category Grid</a></li>
-                                                <li><a href="blog-category-list.php">Blog Category List</a></li>
-                                                <li><a href="blog-category-big.php">Blog Category Big</a></li>
-                                                <li><a href="blog-category-fullwidth.php">Blog Category Wide</a></li>
+                                                <li><a href="/frontendblog-category-grid.php">Blog Category Grid</a></li>
+                                                <li><a href="/frontendblog-category-list.php">Blog Category List</a></li>
+                                                <li><a href="/frontendblog-category-big.php">Blog Category Big</a></li>
+                                                <li><a href="/frontendblog-category-fullwidth.php">Blog Category Wide</a></li>
                                                 <li>
-                                                    <a href="#">Single Post <i class="fi-rs-angle-right"></i></a>
+                                                    <a href="/frontend#">Single Post <i class="fi-rs-angle-right"></i></a>
                                                     <ul class="level-menu level-menu-modify">
-                                                        <li><a href="blog-post-left.php">Left Sidebar</a></li>
-                                                        <li><a href="blog-post-right.php">Right Sidebar</a></li>
-                                                        <li><a href="blog-post-fullwidth.php">No Sidebar</a></li>
+                                                        <li><a href="/frontendblog-post-left.php">Left Sidebar</a></li>
+                                                        <li><a href="/frontendblog-post-right.php">Right Sidebar</a></li>
+                                                        <li><a href="/frontendblog-post-fullwidth.php">No Sidebar</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Pages <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/frontend#">Pages <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="page-about.php">About Us</a></li>
-                                                <li><a href="page-contact.php">Contact</a></li>
-                                                <li><a href="page-account.php">My Account</a></li>
-                                                <li><a href="page-login.php">Login</a></li>
-                                                <li><a href="page-register.php">Register</a></li>
-                                                <li><a href="page-purchase-guide.php">Purchase Guide</a></li>
-                                                <li><a href="page-privacy-policy.php">Privacy Policy</a></li>
-                                                <li><a href="page-terms.php">Terms of Service</a></li>
-                                                <li><a href="page-404.php">404 Page</a></li>
+                                                <li><a href="/frontendpage-about.php">About Us</a></li>
+                                                <li><a href="/frontendpage-contact.php">Contact</a></li>
+                                                <li><a href="/frontendpage-account.php">My Account</a></li>
+                                                <li><a href="/frontendpage-login.php">Login</a></li>
+                                                <li><a href="/frontendpage-register.php">Register</a></li>
+                                                <li><a href="/frontendpage-purchase-guide.php">Purchase Guide</a></li>
+                                                <li><a href="/frontendpage-privacy-policy.php">Privacy Policy</a></li>
+                                                <li><a href="/frontendpage-terms.php">Terms of Service</a></li>
+                                                <li><a href="/frontendpage-404.php">404 Page</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="page-contact.php">Contact</a>
+                                            <a href="/frontendpage-contact.php">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -398,13 +398,13 @@
                         <div class="header-action-right d-block d-lg-none">
                             <div class="header-action-2">
                                 <div class="header-action-icon-2">
-                                    <a href="shop-wishlist.php">
+                                    <a href="/frontendshop-wishlist.php">
                                         <img alt="Nest" src="assets/imgs/theme/icons/icon-heart.svg" />
                                         <span class="pro-count white">4</span>
                                     </a>
                                 </div>
                                 <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="shop-cart.php">
+                                    <a class="mini-cart-icon" href="/frontendshop-cart.php">
                                         <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
                                         <span class="pro-count white">2</span>
                                     </a>
@@ -412,26 +412,26 @@
                                         <ul>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                                    <a href="/frontendshop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="shop-product-right.php">Plain Striola Shirts</a></h4>
+                                                    <h4><a href="/frontendshop-product-right.php">Plain Striola Shirts</a></h4>
                                                     <h3><span>1 × </span>$800.00</h3>
                                                 </div>
                                                 <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                                    <a href="/frontend#"><i class="fi-rs-cross-small"></i></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-4.jpg" /></a>
+                                                    <a href="/frontendshop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-4.jpg" /></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="shop-product-right.php">Macbook Pro 2022</a></h4>
+                                                    <h4><a href="/frontendshop-product-right.php">Macbook Pro 2022</a></h4>
                                                     <h3><span>1 × </span>$3500.00</h3>
                                                 </div>
                                                 <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                                    <a href="/frontend#"><i class="fi-rs-cross-small"></i></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -440,8 +440,8 @@
                                                 <h4>Total <span>$383.00</span></h4>
                                             </div>
                                             <div class="shopping-cart-button">
-                                                <a href="shop-cart.php">View cart</a>
-                                                <a href="shop-checkout.php">Checkout</a>
+                                                <a href="/frontendshop-cart.php">View cart</a>
+                                                <a href="/frontendshop-checkout.php">Checkout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -456,7 +456,7 @@
             <div class="mobile-header-wrapper-inner">
                 <div class="mobile-header-top">
                     <div class="mobile-header-logo">
-                        <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                        <a href="/frontendindex.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                     </div>
                     <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
                         <button class="close-style search-close">
@@ -477,132 +477,132 @@
                         <nav>
                             <ul class="mobile-menu font-heading">
                                 <li class="menu-item-has-children">
-                                    <a href="index.php">Home</a>
+                                    <a href="/frontendindex.php">Home</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.php">Home 1</a></li>
-                                        <li><a href="index-2.php">Home 2</a></li>
-                                        <li><a href="index-3.php">Home 3</a></li>
-                                        <li><a href="index-4.php">Home 4</a></li>
-                                        <li><a href="index-5.php">Home 5</a></li>
-                                        <li><a href="index-6.php">Home 6</a></li>
+                                        <li><a href="/frontendindex.php">Home 1</a></li>
+                                        <li><a href="/frontendindex-2.php">Home 2</a></li>
+                                        <li><a href="/frontendindex-3.php">Home 3</a></li>
+                                        <li><a href="/frontendindex-4.php">Home 4</a></li>
+                                        <li><a href="/frontendindex-5.php">Home 5</a></li>
+                                        <li><a href="/frontendindex-6.php">Home 6</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="shop-grid-right.php">shop</a>
+                                    <a href="/frontendshop-grid-right.php">shop</a>
                                     <ul class="dropdown">
-                                        <li><a href="shop-grid-right.php">Shop Grid – Right Sidebar</a></li>
-                                        <li><a href="shop-grid-left.php">Shop Grid – Left Sidebar</a></li>
-                                        <li><a href="shop-list-right.php">Shop List – Right Sidebar</a></li>
-                                        <li><a href="shop-list-left.php">Shop List – Left Sidebar</a></li>
-                                        <li><a href="shop-fullwidth.php">Shop - Wide</a></li>
+                                        <li><a href="/frontendshop-grid-right.php">Shop Grid – Right Sidebar</a></li>
+                                        <li><a href="/frontendshop-grid-left.php">Shop Grid – Left Sidebar</a></li>
+                                        <li><a href="/frontendshop-list-right.php">Shop List – Right Sidebar</a></li>
+                                        <li><a href="/frontendshop-list-left.php">Shop List – Left Sidebar</a></li>
+                                        <li><a href="/frontendshop-fullwidth.php">Shop - Wide</a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Single Product</a>
+                                            <a href="/frontend#">Single Product</a>
                                             <ul class="dropdown">
-                                                <li><a href="shop-product-right.php">Product – Right Sidebar</a></li>
-                                                <li><a href="shop-product-left.php">Product – Left Sidebar</a></li>
-                                                <li><a href="shop-product-full.php">Product – No sidebar</a></li>
-                                                <li><a href="shop-product-vendor.php">Product – Vendor Infor</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Product – Right Sidebar</a></li>
+                                                <li><a href="/frontendshop-product-left.php">Product – Left Sidebar</a></li>
+                                                <li><a href="/frontendshop-product-full.php">Product – No sidebar</a></li>
+                                                <li><a href="/frontendshop-product-vendor.php">Product – Vendor Infor</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="shop-filter.php">Shop – Filter</a></li>
-                                        <li><a href="shop-wishlist.php">Shop – Wishlist</a></li>
-                                        <li><a href="shop-cart.php">Shop – Cart</a></li>
-                                        <li><a href="shop-checkout.php">Shop – Checkout</a></li>
-                                        <li><a href="shop-compare.php">Shop – Compare</a></li>
+                                        <li><a href="/frontendshop-filter.php">Shop – Filter</a></li>
+                                        <li><a href="/frontendshop-wishlist.php">Shop – Wishlist</a></li>
+                                        <li><a href="/frontendshop-cart.php">Shop – Cart</a></li>
+                                        <li><a href="/frontendshop-checkout.php">Shop – Checkout</a></li>
+                                        <li><a href="/frontendshop-compare.php">Shop – Compare</a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Shop Invoice</a>
+                                            <a href="/frontend#">Shop Invoice</a>
                                             <ul class="dropdown">
-                                                <li><a href="shop-invoice-1.php">Shop Invoice 1</a></li>
-                                                <li><a href="shop-invoice-2.php">Shop Invoice 2</a></li>
-                                                <li><a href="shop-invoice-3.php">Shop Invoice 3</a></li>
-                                                <li><a href="shop-invoice-4.php">Shop Invoice 4</a></li>
-                                                <li><a href="shop-invoice-5.php">Shop Invoice 5</a></li>
-                                                <li><a href="shop-invoice-6.php">Shop Invoice 6</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Vendors</a>
-                                    <ul class="dropdown">
-                                        <li><a href="vendors-grid.php">Vendors Grid</a></li>
-                                        <li><a href="vendors-list.php">Vendors List</a></li>
-                                        <li><a href="vendor-details-1.php">Vendor Details 01</a></li>
-                                        <li><a href="vendor-details-2.php">Vendor Details 02</a></li>
-                                        <li><a href="vendor-dashboard.php">Vendor Dashboard</a></li>
-                                        <li><a href="vendor-guide.php">Vendor Guide</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Mega menu</a>
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Women's Fashion</a>
-                                            <ul class="dropdown">
-                                                <li><a href="shop-product-right.php">Dresses</a></li>
-                                                <li><a href="shop-product-right.php">Blouses & Shirts</a></li>
-                                                <li><a href="shop-product-right.php">Hoodies & Sweatshirts</a></li>
-                                                <li><a href="shop-product-right.php">Women's Sets</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Men's Fashion</a>
-                                            <ul class="dropdown">
-                                                <li><a href="shop-product-right.php">Jackets</a></li>
-                                                <li><a href="shop-product-right.php">Casual Faux Leather</a></li>
-                                                <li><a href="shop-product-right.php">Genuine Leather</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Technology</a>
-                                            <ul class="dropdown">
-                                                <li><a href="shop-product-right.php">Gaming Laptops</a></li>
-                                                <li><a href="shop-product-right.php">Ultraslim Laptops</a></li>
-                                                <li><a href="shop-product-right.php">Tablets</a></li>
-                                                <li><a href="shop-product-right.php">Laptop Accessories</a></li>
-                                                <li><a href="shop-product-right.php">Tablet Accessories</a></li>
+                                                <li><a href="/frontendshop-invoice-1.php">Shop Invoice 1</a></li>
+                                                <li><a href="/frontendshop-invoice-2.php">Shop Invoice 2</a></li>
+                                                <li><a href="/frontendshop-invoice-3.php">Shop Invoice 3</a></li>
+                                                <li><a href="/frontendshop-invoice-4.php">Shop Invoice 4</a></li>
+                                                <li><a href="/frontendshop-invoice-5.php">Shop Invoice 5</a></li>
+                                                <li><a href="/frontendshop-invoice-6.php">Shop Invoice 6</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="blog-category-fullwidth.php">Blog</a>
+                                    <a href="/frontend#">Vendors</a>
                                     <ul class="dropdown">
-                                        <li><a href="blog-category-grid.php">Blog Category Grid</a></li>
-                                        <li><a href="blog-category-list.php">Blog Category List</a></li>
-                                        <li><a href="blog-category-big.php">Blog Category Big</a></li>
-                                        <li><a href="blog-category-fullwidth.php">Blog Category Wide</a></li>
+                                        <li><a href="/frontendvendors-grid.php">Vendors Grid</a></li>
+                                        <li><a href="/frontendvendors-list.php">Vendors List</a></li>
+                                        <li><a href="/frontendvendor-details-1.php">Vendor Details 01</a></li>
+                                        <li><a href="/frontendvendor-details-2.php">Vendor Details 02</a></li>
+                                        <li><a href="/frontendvendor-dashboard.php">Vendor Dashboard</a></li>
+                                        <li><a href="/frontendvendor-guide.php">Vendor Guide</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="/frontend#">Mega menu</a>
+                                    <ul class="dropdown">
                                         <li class="menu-item-has-children">
-                                            <a href="#">Single Product Layout</a>
+                                            <a href="/frontend#">Women's Fashion</a>
                                             <ul class="dropdown">
-                                                <li><a href="blog-post-left.php">Left Sidebar</a></li>
-                                                <li><a href="blog-post-right.php">Right Sidebar</a></li>
-                                                <li><a href="blog-post-fullwidth.php">No Sidebar</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Dresses</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Blouses & Shirts</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Hoodies & Sweatshirts</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Women's Sets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="/frontend#">Men's Fashion</a>
+                                            <ul class="dropdown">
+                                                <li><a href="/frontendshop-product-right.php">Jackets</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Casual Faux Leather</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Genuine Leather</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="/frontend#">Technology</a>
+                                            <ul class="dropdown">
+                                                <li><a href="/frontendshop-product-right.php">Gaming Laptops</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Ultraslim Laptops</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Tablets</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Laptop Accessories</a></li>
+                                                <li><a href="/frontendshop-product-right.php">Tablet Accessories</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Pages</a>
+                                    <a href="/frontendblog-category-fullwidth.php">Blog</a>
                                     <ul class="dropdown">
-                                        <li><a href="page-about.php">About Us</a></li>
-                                        <li><a href="page-contact.php">Contact</a></li>
-                                        <li><a href="page-account.php">My Account</a></li>
-                                        <li><a href="page-login.php">Login</a></li>
-                                        <li><a href="page-register.php">Register</a></li>
-                                        <li><a href="page-purchase-guide.php">Purchase Guide</a></li>
-                                        <li><a href="page-privacy-policy.php">Privacy Policy</a></li>
-                                        <li><a href="page-terms.php">Terms of Service</a></li>
-                                        <li><a href="page-404.php">404 Page</a></li>
+                                        <li><a href="/frontendblog-category-grid.php">Blog Category Grid</a></li>
+                                        <li><a href="/frontendblog-category-list.php">Blog Category List</a></li>
+                                        <li><a href="/frontendblog-category-big.php">Blog Category Big</a></li>
+                                        <li><a href="/frontendblog-category-fullwidth.php">Blog Category Wide</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="/frontend#">Single Product Layout</a>
+                                            <ul class="dropdown">
+                                                <li><a href="/frontendblog-post-left.php">Left Sidebar</a></li>
+                                                <li><a href="/frontendblog-post-right.php">Right Sidebar</a></li>
+                                                <li><a href="/frontendblog-post-fullwidth.php">No Sidebar</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Language</a>
+                                    <a href="/frontend#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">French</a></li>
-                                        <li><a href="#">German</a></li>
-                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="/frontendpage-about.php">About Us</a></li>
+                                        <li><a href="/frontendpage-contact.php">Contact</a></li>
+                                        <li><a href="/frontendpage-account.php">My Account</a></li>
+                                        <li><a href="/frontendpage-login.php">Login</a></li>
+                                        <li><a href="/frontendpage-register.php">Register</a></li>
+                                        <li><a href="/frontendpage-purchase-guide.php">Purchase Guide</a></li>
+                                        <li><a href="/frontendpage-privacy-policy.php">Privacy Policy</a></li>
+                                        <li><a href="/frontendpage-terms.php">Terms of Service</a></li>
+                                        <li><a href="/frontendpage-404.php">404 Page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="/frontend#">Language</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/frontend#">English</a></li>
+                                        <li><a href="/frontend#">French</a></li>
+                                        <li><a href="/frontend#">German</a></li>
+                                        <li><a href="/frontend#">Spanish</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -611,22 +611,22 @@
                     </div>
                     <div class="mobile-header-info-wrap">
                         <div class="single-mobile-header-info">
-                            <a href="page-contact.php"><i class="fi-rs-marker"></i> Our location </a>
+                            <a href="/frontendpage-contact.php"><i class="fi-rs-marker"></i> Our location </a>
                         </div>
                         <div class="single-mobile-header-info">
-                            <a href="page-login.php"><i class="fi-rs-user"></i>Log In / Sign Up </a>
+                            <a href="/frontendpage-login.php"><i class="fi-rs-user"></i>Log In / Sign Up </a>
                         </div>
                         <div class="single-mobile-header-info">
-                            <a href="#"><i class="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
+                            <a href="/frontend#"><i class="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
                         </div>
                     </div>
                     <div class="mobile-social-icon mb-50">
                         <h6 class="mb-15">Follow Us</h6>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                        <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                        <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                        <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                        <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                        <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
                     </div>
                     <div class="site-copyright">Copyright 2021 © Nest. All rights reserved. Powered by AliThemes.</div>
                 </div>
@@ -637,7 +637,7 @@
             <div class="page-header breadcrumb-wrap">
                 <div class="container">
                     <div class="breadcrumb">
-                        <a href="index.php" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                        <a href="/frontendindex.php" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
                         <span></span> Pages <span></span> About us
                     </div>
                 </div>
@@ -675,7 +675,7 @@
                                             <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />
                                             <h4>Best Prices & Offers</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-24">
@@ -683,7 +683,7 @@
                                             <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />
                                             <h4>Wide Assortment</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-24">
@@ -691,7 +691,7 @@
                                             <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />
                                             <h4>Free Delivery</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-24">
@@ -699,7 +699,7 @@
                                             <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />
                                             <h4>Easy Returns</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-24">
@@ -707,7 +707,7 @@
                                             <img src="assets/imgs/theme/icons/icon-5.svg" alt="" />
                                             <h4>100% Satisfaction</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-24">
@@ -715,7 +715,7 @@
                                             <img src="assets/imgs/theme/icons/icon-6.svg" alt="" />
                                             <h4>Great Daily Deal</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <a href="/frontend#">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -785,7 +785,7 @@
                                         <h1 class="mb-30">Meet Our Expert Team</h1>
                                         <p class="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
                                         <p class="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
-                                        <a href="#" class="btn">View All Members</a>
+                                        <a href="/frontend#" class="btn">View All Members</a>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="row">
@@ -796,10 +796,10 @@
                                                         <h4 class="mb-5">H. Merinda</h4>
                                                         <span>CEO & Co-Founder</span>
                                                         <div class="social-network mt-20">
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -811,10 +811,10 @@
                                                         <h4 class="mb-5">Dilan Specter</h4>
                                                         <span>Head Engineer</span>
                                                         <div class="social-network mt-20">
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
-                                                            <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-facebook-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-twitter-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-instagram-brand.svg" alt="" /></a>
+                                                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-youtube-brand.svg" alt="" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -929,7 +929,7 @@
                         <div class="col">
                             <div class="widget-about font-md mb-md-3 mb-lg-3 mb-xl-0">
                                 <div class="logo mb-30">
-                                    <a href="index.php" class="mb-15"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                    <a href="/frontendindex.php" class="mb-15"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                                     <p class="font-lg text-heading">Awesome grocery store website template</p>
                                 </div>
                                 <ul class="contact-infor">
@@ -943,57 +943,57 @@
                         <div class="footer-link-widget col">
                             <h4 class="widget-title">Company</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Delivery Information</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Support Center</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li><a href="/frontend#">About Us</a></li>
+                                <li><a href="/frontend#">Delivery Information</a></li>
+                                <li><a href="/frontend#">Privacy Policy</a></li>
+                                <li><a href="/frontend#">Terms &amp; Conditions</a></li>
+                                <li><a href="/frontend#">Contact Us</a></li>
+                                <li><a href="/frontend#">Support Center</a></li>
+                                <li><a href="/frontend#">Careers</a></li>
                             </ul>
                         </div>
                         <div class="footer-link-widget col">
                             <h4 class="widget-title">Account</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
-                                <li><a href="#">Sign In</a></li>
-                                <li><a href="#">View Cart</a></li>
-                                <li><a href="#">My Wishlist</a></li>
-                                <li><a href="#">Track My Order</a></li>
-                                <li><a href="#">Help Ticket</a></li>
-                                <li><a href="#">Shipping Details</a></li>
-                                <li><a href="#">Compare products</a></li>
+                                <li><a href="/frontend#">Sign In</a></li>
+                                <li><a href="/frontend#">View Cart</a></li>
+                                <li><a href="/frontend#">My Wishlist</a></li>
+                                <li><a href="/frontend#">Track My Order</a></li>
+                                <li><a href="/frontend#">Help Ticket</a></li>
+                                <li><a href="/frontend#">Shipping Details</a></li>
+                                <li><a href="/frontend#">Compare products</a></li>
                             </ul>
                         </div>
                         <div class="footer-link-widget col">
                             <h4 class="widget-title">Corporate</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
-                                <li><a href="#">Become a Vendor</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">Farm Business</a></li>
-                                <li><a href="#">Farm Careers</a></li>
-                                <li><a href="#">Our Suppliers</a></li>
-                                <li><a href="#">Accessibility</a></li>
-                                <li><a href="#">Promotions</a></li>
+                                <li><a href="/frontend#">Become a Vendor</a></li>
+                                <li><a href="/frontend#">Affiliate Program</a></li>
+                                <li><a href="/frontend#">Farm Business</a></li>
+                                <li><a href="/frontend#">Farm Careers</a></li>
+                                <li><a href="/frontend#">Our Suppliers</a></li>
+                                <li><a href="/frontend#">Accessibility</a></li>
+                                <li><a href="/frontend#">Promotions</a></li>
                             </ul>
                         </div>
                         <div class="footer-link-widget col">
                             <h4 class="widget-title">Popular</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
-                                <li><a href="#">Milk & Flavoured Milk</a></li>
-                                <li><a href="#">Butter and Margarine</a></li>
-                                <li><a href="#">Eggs Substitutes</a></li>
-                                <li><a href="#">Marmalades</a></li>
-                                <li><a href="#">Sour Cream and Dips</a></li>
-                                <li><a href="#">Tea & Kombucha</a></li>
-                                <li><a href="#">Cheese</a></li>
+                                <li><a href="/frontend#">Milk & Flavoured Milk</a></li>
+                                <li><a href="/frontend#">Butter and Margarine</a></li>
+                                <li><a href="/frontend#">Eggs Substitutes</a></li>
+                                <li><a href="/frontend#">Marmalades</a></li>
+                                <li><a href="/frontend#">Sour Cream and Dips</a></li>
+                                <li><a href="/frontend#">Tea & Kombucha</a></li>
+                                <li><a href="/frontend#">Cheese</a></li>
                             </ul>
                         </div>
                         <div class="footer-link-widget widget-install-app col">
                             <h4 class="widget-title">Install App</h4>
                             <p class="wow fadeIn animated">From App Store or Google Play</p>
                             <div class="download-app">
-                                <a href="#" class="hover-up mb-sm-2 mb-lg-0"><img class="active" src="assets/imgs/theme/app-store.jpg" alt="" /></a>
-                                <a href="#" class="hover-up mb-sm-2"><img src="assets/imgs/theme/google-play.jpg" alt="" /></a>
+                                <a href="/frontend#" class="hover-up mb-sm-2 mb-lg-0"><img class="active" src="assets/imgs/theme/app-store.jpg" alt="" /></a>
+                                <a href="/frontend#" class="hover-up mb-sm-2"><img src="assets/imgs/theme/google-play.jpg" alt="" /></a>
                             </div>
                             <p class="mb-20">Secured Payment Gateways</p>
                             <img class="wow fadeIn animated" src="assets/imgs/theme/payment-method.png" alt="" />
@@ -1022,11 +1022,11 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 text-end d-none d-md-block">
                         <div class="mobile-social-icon">
                             <h6>Follow Us</h6>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                            <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
                         </div>
                         <p class="font-sm">Up to 15% discount on your first subscribe</p>
                     </div>
@@ -1064,7 +1064,7 @@
         <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
         <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
         <!-- Template  JS -->
-        <script src="./assets/js/main.js?v=4.0"></script>
-        <script src="./assets/js/shop.js?v=4.0"></script>
+        <script src="/frontend/assets/js/main.js?v=4.0"></script>
+        <script src="/frontend/assets/js/shop.js?v=4.0"></script>
     </body>
 </html>

@@ -11,14 +11,14 @@
         <meta property="og:url" content="" />
         <meta property="og:image" content="" />
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
-        <link rel="stylesheet" href="assets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
+        <link rel="shortcut icon" type="image/x-icon" href="/frontendassets/imgs/theme/favicon.svg" />
+        <link rel="stylesheet" href="/frontendassets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
     </head>
 
     <body>
         <div class="invoice invoice-content invoice-3">
             <div class="back-top-home hover-up mt-30 ml-30">
-                <a class="hover-up" href="index.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
+                <a class="hover-up" href="/frontendindex.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
             </div>
             <div class="container">
                 <div class="row">
@@ -30,7 +30,7 @@
                                         <div class="col-sm-6">
                                             <div class="invoice-name">
                                                 <div class="logo">
-                                                    <a href="index.php"><img src="assets/imgs/theme/logo-light.svg" alt="logo" /></a>
+                                                    <a href="/frontendindex.php"><img src="assets/imgs/theme/logo-light.svg" alt="logo" /></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,11 +172,11 @@
                                                 <p><strong>AliThemes JSC</strong></p>
                                                 <div class="mobile-social-icon mt-50 print-hide">
                                                     <h6>Follow Us</h6>
-                                                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                                                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                                                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                                                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-                                                    <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                                                    <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                                                    <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                                                    <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                                                    <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                                                    <a href="/frontend#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@
                                 </div>
                             </div>
                             <div class="invoice-btn-section clearfix d-print-none">
-                                <a href="javascript:window.print()" class="btn btn-lg btn-custom btn-print hover-up"> <img src="assets/imgs/theme/icons/icon-print.svg" alt="" /> Print </a>
+                                <a href="/frontendjavascript:window.print()" class="btn btn-lg btn-custom btn-print hover-up"> <img src="assets/imgs/theme/icons/icon-print.svg" alt="" /> Print </a>
                                 <a id="invoice_download_btn" class="btn btn-lg btn-custom btn-download hover-up"> <img src="assets/imgs/theme/icons/icon-download.svg" alt="" /> Download </a>
                             </div>
                         </div>
