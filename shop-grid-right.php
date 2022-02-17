@@ -398,7 +398,7 @@
                                                 <li><a href="/frontend/index-2.php">Home 2</a></li>
                                                 <li><a href="/frontend/index-3.php">Home 3</a></li>
                                                 <li><a href="/frontend/index-4.php">Home 4</a></li>
-                                                <li><a href="/frontend/index-5.php">Home 5</a></li>
+                                                <li><a href="/frontend/index.php">Home 5</a></li>
                                                 <li><a href="/frontend/index-6.php">Home 6</a></li>
                                             </ul>
                                         </li>
@@ -650,7 +650,7 @@
                                         <li><a href="/frontend/index-2.php">Home 2</a></li>
                                         <li><a href="/frontend/index-3.php">Home 3</a></li>
                                         <li><a href="/frontend/index-4.php">Home 4</a></li>
-                                        <li><a href="/frontend/index-5.php">Home 5</a></li>
+                                        <li><a href="/frontend/index.php">Home 5</a></li>
                                         <li><a href="/frontend/index-6.php">Home 6</a></li>
                                     </ul>
                                 </li>

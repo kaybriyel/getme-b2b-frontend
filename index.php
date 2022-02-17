@@ -19,49 +19,6 @@
     </head>
 
     <body>
-        <!-- Modal -->
-        <div class="modal fade custom-modal" id="onloadModal" tabindex="-1" aria-labelledby="onloadModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-body">
-                        <div class="deal" style="background-image: url('assets/imgs/banner/popup-1.png')">
-                            <div class="deal-top">
-                                <h6 class="mb-10 text-brand-2">Deal of the Day</h6>
-                            </div>
-                            <div class="deal-content detail-info">
-                                <h4 class="product-title"><a href="/frontend/shop-product-right.php" class="text-heading">Organic fruit for your family's health</a></h4>
-                                <div class="clearfix product-price-cover">
-                                    <div class="product-price primary-color float-left">
-                                        <span class="current-price text-brand">$38</span>
-                                        <span>
-                                            <span class="save-price font-md color3 ml-15">26% Off</span>
-                                            <span class="old-price font-md ml-15">$52</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="deal-bottom">
-                                <p class="mb-20">Hurry Up! Offer End In:</p>
-                                <div class="deals-countdown pl-5" data-countdown="2025/03/25 00:00:00">
-                                    <span class="countdown-section"><span class="countdown-amount hover-up">03</span><span class="countdown-period"> days </span></span><span class="countdown-section"><span class="countdown-amount hover-up">02</span><span class="countdown-period"> hours </span></span><span class="countdown-section"><span class="countdown-amount hover-up">43</span><span class="countdown-period"> mins </span></span><span class="countdown-section"><span class="countdown-amount hover-up">29</span><span class="countdown-period"> sec </span></span>
-                                </div>
-                                <div class="product-detail-rating">
-                                    <div class="product-rate-cover text-end">
-                                        <div class="product-rate d-inline-block">
-                                            <div class="product-rating" style="width: 90%"></div>
-                                        </div>
-                                        <span class="font-small ml-5 text-muted"> (32 rates)</span>
-                                    </div>
-                                </div>
-                                <a href="/frontend/shop-grid-right.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Quick view -->
         <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -154,7 +111,7 @@
                 </div>
             </div>
         </div>
-        <header class="header-area header-style-1 header-height-2">
+        <header class="header-area header-style-1 header-style-5 header-height-2">
             <div class="mobile-promotion">
                 <span>Grand opening, <strong>up to 15%</strong> off all items. Only <strong>3 days</strong> left</span>
             </div>
@@ -368,7 +325,7 @@
                         <div class="header-nav d-none d-lg-flex">
                             <div class="main-categori-wrap d-none d-lg-block">
                                 <a class="categories-button-active" href="/frontend/#">
-                                    <span class="fi-rs-apps"></span> <span class="et">Browse</span> All Categories
+                                    <span class="fi-rs-apps"></span> <span class="et">Trending</span> Categories
                                     <i class="fi-rs-angle-down"></i>
                                 </a>
                                 <div class="categories-dropdown-wrap categories-dropdown-active-large font-heading">
@@ -434,7 +391,7 @@
                             <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
                                 <nav>
                                     <ul>
-                                        <li class="hot-deals"><img src="/frontend/assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="/frontend/shop-grid-right.php">Hot Deals</a></li>
+                                        <li class="hot-deals"><img src="/frontend/assets/imgs/theme/icons/icon-hot-white.svg" alt="hot deals" /><a href="/frontend/shop-grid-right.php">Hot Deals</a></li>
                                         <li>
                                             <a class="active" href="/frontend/index.php">Home <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
@@ -442,7 +399,7 @@
                                                 <li><a href="/frontend/index-2.php">Home 2</a></li>
                                                 <li><a href="/frontend/index-3.php">Home 3</a></li>
                                                 <li><a href="/frontend/index-4.php">Home 4</a></li>
-                                                <li><a href="/frontend/index-5.php">Home 5</a></li>
+                                                <li><a href="/frontend/index.php">Home 5</a></li>
                                                 <li><a href="/frontend/index-6.php">Home 6</a></li>
                                             </ul>
                                         </li>
@@ -596,7 +553,7 @@
                             </div>
                         </div>
                         <div class="hotline d-none d-lg-flex">
-                            <img src="/frontend/assets/imgs/theme/icons/icon-headphone.svg" alt="hotline" />
+                            <img src="/frontend/assets/imgs/theme/icons/icon-headphone-white.svg" alt="hotline" />
                             <p>1900 - 888<span>24/7 Support Center</span></p>
                         </div>
                         <div class="header-action-icon-2 d-block d-lg-none">
@@ -694,7 +651,7 @@
                                         <li><a href="/frontend/index-2.php">Home 2</a></li>
                                         <li><a href="/frontend/index-3.php">Home 3</a></li>
                                         <li><a href="/frontend/index-4.php">Home 4</a></li>
-                                        <li><a href="/frontend/index-5.php">Home 5</a></li>
+                                        <li><a href="/frontend/index.php">Home 5</a></li>
                                         <li><a href="/frontend/index-6.php">Home 6</a></li>
                                     </ul>
                                 </li>
@@ -847,36 +804,128 @@
         <main class="main">
             <section class="home-slider position-relative mb-30">
                 <div class="container">
-                    <div class="home-slide-cover mt-30">
-                        <div class="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1">
-                            <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-1.png)">
-                                <div class="slider-content">
-                                    <h1 class="display-2 mb-40">
-                                        Don’t miss amazing<br />
-                                        grocery deals
-                                    </h1>
-                                    <p class="mb-65">Sign up for the daily newsletter</p>
-                                    <form class="form-subcriber d-flex">
-                                        <input type="email" placeholder="Your emaill address" />
-                                        <button class="btn" type="submit">Subscribe</button>
-                                    </form>
+                    <div class="row">
+                        <div class="col-lg-2 d-none d-lg-flex">
+                            <div class="categories-dropdown-wrap style-2 font-heading mt-30">
+                                <div class="d-flex categori-dropdown-inner">
+                                    <ul>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
+                                        </li>
+                                        <li>
+                                            <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
+                                        </li>
+                                    </ul>
                                 </div>
+                                <div class="more_slide_open" style="display: none">
+                                    <div class="d-flex categori-dropdown-inner">
+                                        <ul>
+                                            <li>
+                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
+                                            </li>
+                                            <li>
+                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
+                                            </li>
+                                            <li>
+                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
+                                            </li>
+                                            <li>
+                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="more_categories"><span class="icon"></span> <span class="heading-sm-1">Show more...</span></div>
                             </div>
-                            <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-2.png)">
-                                <div class="slider-content">
-                                    <h1 class="display-2 mb-40">
-                                        Fresh Vegetables<br />
-                                        Big discount
-                                    </h1>
-                                    <p class="mb-65">Save up to 50% off on your first order</p>
-                                    <form class="form-subcriber d-flex">
-                                        <input type="email" placeholder="Your emaill address" />
-                                        <button class="btn" type="submit">Subscribe</button>
-                                    </form>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="home-slide-cover mt-30">
+                                <div class="hero-slider-1 style-5 dot-style-1 dot-style-1-position-2">
+                                    <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-7.png)">
+                                        <div class="slider-content">
+                                            <h1 class="display-2 mb-40">
+                                                Don’t miss amazing<br />
+                                                grocery deals
+                                            </h1>
+                                            <p class="mb-65">Sign up for the daily newsletter</p>
+                                            <form class="form-subcriber d-flex">
+                                                <input type="email" placeholder="Your emaill address" />
+                                                <button class="btn" type="submit">Subscribe</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-8.png)">
+                                        <div class="slider-content">
+                                            <h1 class="display-2 mb-40">
+                                                Fresh Vegetables<br />
+                                                Big discount
+                                            </h1>
+                                            <p class="mb-65">Save up to 50% off on your first order</p>
+                                            <form class="form-subcriber d-flex">
+                                                <input type="email" placeholder="Your emaill address" />
+                                                <button class="btn" type="submit">Subscribe</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-arrow hero-slider-1-arrow"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="banner-img style-4 mt-30">
+                                        <img src="/frontend/assets/imgs/banner/banner-14.png" alt="" />
+                                        <div class="banner-text">
+                                            <h4 class="mb-30">
+                                                Everyday Fresh &amp; <br />Clean with Our<br />
+                                                Products
+                                            </h4>
+                                            <a href="/frontend/shop-grid-right.php" class="btn btn-xs mb-50">Shop Now <i class="fi-rs-arrow-small-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="banner-img style-5 mt-5 mt-md-30">
+                                        <img src="/frontend/assets/imgs/banner/banner-15.png" alt="" />
+                                        <div class="banner-text">
+                                            <h5 class="mb-20">
+                                                The best Organic <br />
+                                                Products Online
+                                            </h5>
+                                            <a href="/frontend/shop-grid-right.php" class="btn btn-xs">Shop Now <i class="fi-rs-arrow-small-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-arrow hero-slider-1-arrow"></div>
                     </div>
                 </div>
             </section>
@@ -4162,6 +4211,55 @@
                 </div>
             </section>
             <!--Products Tabs-->
+            <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="banner-img style-6 wow animate__animated animate__fadeInUp" data-wow-delay="0">
+                                <img src="/frontend/assets/imgs/banner/banner-16.png" alt="" />
+                                <div class="banner-text">
+                                    <h6 class="mb-10 mt-30">Everyday Fresh with<br />Our Products</h6>
+                                    <p>Go to supplier</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="banner-img style-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                                <img src="/frontend/assets/imgs/banner/banner-17.png" alt="" />
+                                <div class="banner-text">
+                                    <h6 class="mb-10 mt-30">100% guaranteed all<br />Fresh items</h6>
+                                    <p>Go to supplier</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="banner-img style-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                                <img src="/frontend/assets/imgs/banner/banner-18.png" alt="" />
+                                <div class="banner-text">
+                                    <h6 class="mb-10 mt-30">Special grocery sale<br />off this month</h6>
+                                    <p>Go to supplier</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="banner-img style-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                <img src="/frontend/assets/imgs/banner/banner-19.png" alt="" />
+                                <div class="banner-text">
+                                    <h6 class="mb-10 mt-30">
+                                        Enjoy 15% OFF for all<br />
+                                        vegetable and fruit
+                                    </h6>
+                                    <p>Go to supplier</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End 4 banners-->
             <section class="section-padding pb-5">
                 <div class="container">
                     <div class="section-title wow animate__animated animate__fadeIn">
