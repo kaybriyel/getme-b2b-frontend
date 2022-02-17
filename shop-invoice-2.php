@@ -18,7 +18,7 @@
     <body>
         <div class="invoice invoice-content invoice-2">
             <div class="back-top-home hover-up mt-30 ml-30">
-                <a class="hover-up" href="index.html"><i class="fi-rs-home mr-5"></i> Homepage</a>
+                <a class="hover-up" href="index.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
             </div>
             <div class="container">
                 <div class="row">
@@ -36,7 +36,7 @@
                                         <div class="col-sm-6">
                                             <div class="invoice-name text-end">
                                                 <div class="logo">
-                                                    <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                                    <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                                                     <p class="text-sm text-mutted">205 North Michigan Avenue, Suite 810 <br> Chicago, 60601, USA</p>
                                                 </div>
                                             </div>

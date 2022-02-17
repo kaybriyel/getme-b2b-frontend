@@ -18,7 +18,7 @@
     <body>
         <div class="invoice invoice-content invoice-4">
             <div class="back-top-home hover-up mt-30 ml-30">
-                <a class="hover-up" href="index.html"><i class="fi-rs-home mr-5"></i> Homepage</a>
+                <a class="hover-up" href="index.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
             </div>
             <div class="container">
                 <div class="row">
@@ -29,7 +29,7 @@
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6">
                                             <div class="logo">
-                                                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                                <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                                             </div>
                                             <p class="invoice-addr-1 mt-10">
                                                 <strong>Invoice Numb:</strong> <strong class="text-brand">#985632</strong> <br />
