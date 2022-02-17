@@ -1,0 +1,86 @@
+{
+    "compare": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "filter": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "fullwidth": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "grid-left": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "grid-right": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "list-left": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "list-right": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "product-full": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "product-left": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "product-right": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "product-vendor": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "wishlist": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    }
+}

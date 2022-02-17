@@ -16,12 +16,13 @@
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
-    <?php require_once('includes/extra-css.php') ?>
-    <link rel="stylesheet" href="assets/css/main.css?v=4.0" />
+    <?php require_once('includes/app-css.php') ?>
+    <link rel="stylesheet" href="assets/css/main.css?r=<?php echo random_int(0, 5)?>" />
 </head>
 
 <body>
     <?php View::layout(Param::get('layout')) ?>
+    <?php require_once('includes/app-script.php')?>
 </body>
 
 </html>

@@ -27,8 +27,8 @@
 
 // return pages' properies
 return [
-  'page' => require('config/page_props/page_layout.php'),
-  'shop' => require('config/page_props/shop_layout.php'),
-  'vendor' => require('config/page_props/vendor_layout.php'),
-  'blog' => require('config/page_props/blog_layout.php')
+  'page' => json_decode(file_get_contents('config/page_props/page_layout.json')),
+  'shop' => json_decode(file_get_contents('config/page_props/shop_layout.json')),
+  'vendor' => json_decode(file_get_contents('config/page_props/vendor_layout.json')),
+  'blog' => json_decode(file_get_contents('config/page_props/blog_layout.json'))
 ];

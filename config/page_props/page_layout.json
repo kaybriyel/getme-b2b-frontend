@@ -1,0 +1,89 @@
+{
+    "404": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "about": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        },
+        "header": {
+            "hasTop": false
+        }
+    },
+    "account": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "contact": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "index-2": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "index-3": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "index-4": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "login": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "privacy-policy": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "purchase-guide": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "register": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    },
+    "terms": {
+        "include": {
+            "js": [
+                "./assets/js/shop.js?v=4.0"
+            ]
+        }
+    }
+}

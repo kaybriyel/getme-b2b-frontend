@@ -1,0 +1,44 @@
+{
+  "category-big": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "category-fullwidth": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "category-grid": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "category-list": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "post-left": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "post-right": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  }
+}

@@ -5,6 +5,7 @@
  */
 class View
 {
+  static string $lastNotFound = '';
 
   /**
    * require_once app.php in /views
@@ -21,11 +22,13 @@ class View
   private static function render($path, $name)
   {
     $view = "views/$path/$name.php";
-    // echo $view;
     if (file_exists($view)) {
       require_once($view);
       return true;
-    } else return false;
+    } else {
+      static::$lastNotFound = $view;
+      return false;
+    };
   }
 
   /**
@@ -35,12 +38,19 @@ class View
   {
     $path = 'pages';
     $layout = Param::get('layout');
-    if (View::isVirtualLayout($layout)) {
-      $path .= "/$layout" . 's';
-    }
+    if($layout !== 'page') $path .= "/$layout" . 's';
 
     $viewExist = static::render($path, $name);
-    if (!$viewExist) static::render('pages', '404');
+
+    if (!$viewExist && View::isVirtualLayout($layout)) {
+      $path = "pages/$layout" . 's';
+      $viewExist = static::render($path, $name);
+    }
+
+    if (!$viewExist) {
+      // echo static::$lastNotFound . ' is not found';
+      static::render('pages', '404');
+    }
   }
 
   /**
@@ -48,10 +58,15 @@ class View
    */
   static function layout($name)
   {
+    $layout = Param::get('layout');
     $viewExist = static::render('layouts', $name);
-    if (!$viewExist) {
-      if (View::isVirtualLayout(Param::get('layout')))
-        static::render('layouts', 'page');
+    if (!$viewExist && View::isVirtualLayout($layout)) {
+        $viewExist = static::render('layouts', 'page');
+    }
+
+    if(!$viewExist){
+      // echo static::$lastNotFound . ' is not found';
+      static::render('pages', 404);
     }
   }
 

@@ -1,3 +1,7 @@
 <?php
-View::invoice(Param::get('page'));
-include_once('includes/invoice-script.php');
+render_page();
+
+function render_page()
+{
+  View::page(Param::get('page'));
+}

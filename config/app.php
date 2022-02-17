@@ -14,12 +14,11 @@ function config(string $pathNames, $default = null)
 
   if (!file_exists("config/$name")) return $default; // if file is not found return default value
 
-  $data = require($name); // get the array returned from filename.php
-
+  $data = (array) require($name); // get the array returned from filename.php
   // get value by index and sub index
   foreach ($keys as $key) {
     if (key_exists($key, $data))
-      $data = $data[$key];
+      $data = (array) $data[$key];
     else return $default;
   }
 

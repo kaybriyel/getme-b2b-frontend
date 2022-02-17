@@ -1,0 +1,44 @@
+{
+  "dashboard": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "details-1": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "details-2": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "grid": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "guide": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  },
+  "list": {
+      "include": {
+          "js": [
+              "./assets/js/shop.js?v=4.0"
+          ]
+      }
+  }
+}

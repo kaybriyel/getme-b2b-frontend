@@ -5,12 +5,14 @@ class PageProps
 
   public HeaderProps $header;
   public IncludeProps $include;
+  public ExcludeProps $exclude;
   
   function __construct($props = [])
   {
     $this->header = new HeaderProps;
     $this->include = new IncludeProps;
-    $this->update($props);
+    $this->exclude = new ExcludeProps;
+    $this->update((array) $props);
   }
 
   function update($props)
@@ -19,12 +21,17 @@ class PageProps
 
     // update header
     if (key_exists('header', $props)) {
-      $this->header->update($props['header']);
+      $this->header->update((array) $props['header']);
     }
 
     // update includes
     if (key_exists('include', $props)) {
-      $this->include->update($props['include']);
+      $this->include->update((array) $props['include']);
+    }
+
+    // update excludes
+    if (key_exists('exclude', $props)) {
+      $this->include->update((array) $props['include']);
     }
   }
 
@@ -53,13 +60,13 @@ class PageProps
 class IncludeProps
 {
   public array $css;
-  public array $script;
+  public array $js;
 
   function __construct($props = [])
   {
     $this->css = [];
-    $this->script = [];
-    $this->update($props);
+    $this->js = [];
+    $this->update((array) $props);
   }
 
   function update($props)
@@ -67,29 +74,74 @@ class IncludeProps
     if (is_array($props)) {
       // update css
       if (key_exists('css', $props))
-        $this->addCSS($props['css']);
-      // update script
-      if (key_exists('script', $props))
-        $this->addScript($props['script']);
+        $this->addCSS((array) $props['css']);
+      // update js
+      if (key_exists('js', $props))
+        $this->addJS((array) $props['js']);
     }
   }
 
-  function addCSS($css)
+  function addCSS(array $csss)
   {
-    if (is_array($css)) {
-      foreach ($css as $href) {
+    if (is_array($csss)) {
+      foreach ($csss as $href) {
         if ($href && !in_array($href, $this->css))
           array_push($this->css, $href);
       }
     }
   }
 
-  function addScript($script)
+  function addJS(array $jss)
   {
-    if (is_array($script)) {
-      foreach ($script as $src) {
-        if ($src && !in_array($src, $this->script))
-          array_push($this->script, $src);
+    if (is_array($jss)) {
+      foreach ($jss as $src) {
+        if ($src && !in_array($src, $this->js))
+          array_push($this->js, $src);
+      }
+    }
+  }
+}
+
+class ExcludeProps
+{
+  public array $css;
+  public array $js;
+
+  function __construct($props = [])
+  {
+    $this->css = [];
+    $this->js = [];
+    $this->update((array) $props);
+  }
+
+  function update($props)
+  {
+    if (is_array($props)) {
+      // update css
+      if (key_exists('css', $props))
+        $this->addCSS((array) $props['css']);
+      // update js
+      if (key_exists('js', $props))
+        $this->addJS((array) $props['js']);
+    }
+  }
+
+  function addCSS(array $csss)
+  {
+    if (is_array($csss)) {
+      foreach ($csss as $href) {
+        if ($href && !in_array($href, $this->css))
+          array_push($this->css, $href);
+      }
+    }
+  }
+
+  function addJS(array $jss)
+  {
+    if (is_array($jss)) {
+      foreach ($jss as $src) {
+        if ($src && !in_array($src, $this->js))
+          array_push($this->js, $src);
       }
     }
   }
@@ -105,7 +157,7 @@ class HeaderProps
 
   function __construct(array $props = [])
   {
-    $this->update($props);
+    $this->update((array) $props);
   }
 
   function update($props)
