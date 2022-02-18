@@ -15,7 +15,7 @@
 
         <!-- Template CSS -->
         <link rel="stylesheet" href="/frontend/assets/css/plugins/animate.min.css" />
-        <link rel="stylesheet" href="/frontend/assets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
+        <link rel="stylesheet" href="/frontend/assets/css/main.css?t=<?php echo time() ?>" />
     </head>
 
     <body>

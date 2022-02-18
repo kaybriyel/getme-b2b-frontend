@@ -13,7 +13,7 @@
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="/frontend/assets/imgs/theme/favicon.svg" />
         <!-- Template CSS -->
-        <link rel="stylesheet" href="/frontend/assets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
+        <link rel="stylesheet" href="/frontend/assets/css/main.css?t=<?php echo time() ?>" />
         <!--leaflet map-->
         <link rel="stylesheet" href="/frontend/https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>

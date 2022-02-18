@@ -13,7 +13,7 @@
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="/frontend/assets/imgs/theme/favicon.svg" />
         <!-- Template CSS -->
-        <link rel="stylesheet" href="/frontend/assets/css/main.css?r=<?php echo random_int(0, 5) ?>" />
+        <link rel="stylesheet" href="/frontend/assets/css/main.css?t=<?php echo time() ?>" />
     </head>
 
     <body class="single-product">
