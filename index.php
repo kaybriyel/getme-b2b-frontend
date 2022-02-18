@@ -5780,7 +5780,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="click_away d-none" onclick="$(signInWrapper, allCategoryDropdown).removeClass('open');$(this).addClass('d-none')"></div>
+	<div class="click_away d-none" onclick="$(signInWrapper).removeClass('open');$(allCategoryDropdown).removeClass('open');$(this).addClass('d-none')"></div>
 	<!-- Vendor JS-->
 	<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
