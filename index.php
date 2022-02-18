@@ -959,7 +959,7 @@
 		<section class="home-slider position-relative mb-30">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 d-none d-lg-flex">
+					<!-- <div class="col-lg-2 d-none d-lg-flex">
 						<div class="categories-dropdown-wrap style-2 font-heading mt-30">
 							<div class="d-flex categori-dropdown-inner">
 								<ul>
@@ -1018,7 +1018,7 @@
 							</div>
 							<div class="more_categories"><span class="icon"></span> <span class="heading-sm-1">Show more...</span></div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-7">
 						<div class="home-slide-cover mt-30">
 							<div class="hero-slider-1 style-5 dot-style-1 dot-style-1-position-2">
