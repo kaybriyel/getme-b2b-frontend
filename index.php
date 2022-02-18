@@ -196,26 +196,26 @@
 									<div class="col-4 p-0 left">
 										<div class="menu-panel h5">
 											<ul>
-												<li>
+												<li onclick="$('#allCategoryDropdown .right').addClass('d-none'); $(`#allCategoryDropdown .shop`).removeClass('d-none')">
 													<a href="#">Shop<i class="fi-rs-angle-right"></i></a>
 												</li>
-												<li>
+												<li onclick="$('#allCategoryDropdown .right').addClass('d-none'); $(`#allCategoryDropdown .vendors`).removeClass('d-none')">
 													<a href="#">Vendors<i class="fi-rs-angle-right"></i></a>
 												</li>
-												<li>
+												<li onclick="$('#allCategoryDropdown .right').addClass('d-none'); $(`#allCategoryDropdown .mega-menu`).removeClass('d-none')">
 													<a href="#">Mega menu<i class="fi-rs-angle-right"></i></a>
 												</li>
-												<li>
+												<li onclick="$('#allCategoryDropdown .right').addClass('d-none'); $(`#allCategoryDropdown .blog`).removeClass('d-none')">
 													<a href="#">Blog<i class="fi-rs-angle-right"></i></a>
 												</li>
-												<li>
+												<li onclick="$('#allCategoryDropdown .right').addClass('d-none'); $(`#allCategoryDropdown .page`).removeClass('d-none')">
 													<a href="#">Page<i class="fi-rs-angle-right"></i></a>
 												</li>
 											</ul>
 										</div>
 									</div>
 									<!-- right menu for shop -->
-									<div class="col-8 right">
+									<div class="col-8 right shop">
 										<div class="menu-panel">
 											<div class="title">
 												<h4>Shop</h4>
@@ -258,6 +258,104 @@
 														<li><a href="/shop-product-full.php">Product 4</a></li>
 														<li><a href="/shop-product-full.php">Product 5</a></li>
 														<li><a href="/shop-product-full.php">Product 6</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- right menu for vendors -->
+									<div class="col-8 right d-none vendors">
+										<div class="menu-panel">
+											<div class="title">
+												<h4>Vendors</h4>
+											</div>
+											<div class="row submenu-panel">
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Vendor</h5>
+													</div>
+													<ul>
+														<li><a href="/shop-vendor-details-1.php">Vendors 1</a></li>
+														<li><a href="/shop-vendor-details-1.php">Vendors 2</a></li>
+														<li><a href="/shop-vendor-details-1.php">Vendors 3</a></li>
+														<li><a href="/shop-vendor-details-1.php">Vendors 4</a></li>
+														<li><a href="/shop-vendor-details-1.php">Vendors 5</a></li>
+														<li><a href="/shop-vendor-details-1.php">Vendors 6</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Sub Title</h5>
+													</div>
+													<ul>
+														<li><a href="#">Menu 1</a></li>
+														<li><a href="#">Menu 2</a></li>
+														<li><a href="#">Menu 3</a></li>
+														<li><a href="#">Menu 4</a></li>
+														<li><a href="#">Menu 5</a></li>
+														<li><a href="#">Menu 6</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Products</h5>
+													</div>
+													<ul>
+														<li><a href="#">Menu 1</a></li>
+														<li><a href="#">Menu 2</a></li>
+														<li><a href="#">Menu 3</a></li>
+														<li><a href="#">Menu 4</a></li>
+														<li><a href="#">Menu 5</a></li>
+														<li><a href="#">Menu 6</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- right menu for mega-menu -->
+									<div class="col-8 right d-none mega-menu">
+										<div class="menu-panel">
+											<div class="title">
+												<h4>Mega Menu</h4>
+											</div>
+											<div class="row submenu-panel">
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Fruit & Vegetable</h5>
+													</div>
+													<ul>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+														<li><a href="/shop-product-right.php">Meat & Poultry</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Sub Title</h5>
+													</div>
+													<ul>
+														<li><a href="#">Menu 1</a></li>
+														<li><a href="#">Menu 2</a></li>
+														<li><a href="#">Menu 3</a></li>
+														<li><a href="#">Menu 4</a></li>
+														<li><a href="#">Menu 5</a></li>
+														<li><a href="#">Menu 6</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Products</h5>
+													</div>
+													<ul>
+														<li><a href="#">Menu 1</a></li>
+														<li><a href="#">Menu 2</a></li>
+														<li><a href="#">Menu 3</a></li>
+														<li><a href="#">Menu 4</a></li>
+														<li><a href="#">Menu 5</a></li>
+														<li><a href="#">Menu 6</a></li>
 													</ul>
 												</div>
 											</div>

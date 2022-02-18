@@ -7433,6 +7433,10 @@ h6.post-title {
   background-color: var(--bs-light);
   cursor: pointer;
 }
+.header-style-1 .main-menu-dropdown-wrapper .right {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .title {
   margin-bottom: 15px;
 }
