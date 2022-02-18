@@ -475,7 +475,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="main-categori-wrap d-none d-lg-block">
+						<!-- <div class="main-categori-wrap d-none d-lg-block">
 							<a class="categories-button-active" href="#">
 								<span class="fi-rs-apps"></span> <span class="et">Trending</span> Categories
 								<i class="fi-rs-angle-down"></i>
@@ -539,7 +539,7 @@
 								</div>
 								<div class="more_categories"><span class="icon"></span> <span class="heading-sm-1">Show more...</span></div>
 							</div>
-						</div>
+						</div> -->
 						<div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
 							<nav>
 								<ul>
