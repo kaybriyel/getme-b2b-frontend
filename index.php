@@ -197,9 +197,6 @@
 										<div class="menu-panel h5">
 											<ul>
 												<li>
-													<a href="#">Home<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
 													<a href="#">Shop<i class="fi-rs-angle-right"></i></a>
 												</li>
 												<li>
@@ -217,22 +214,50 @@
 											</ul>
 										</div>
 									</div>
-									<!-- right menu for home -->
+									<!-- right menu for shop -->
 									<div class="col-8 right">
 										<div class="menu-panel">
 											<div class="title">
-												<h4>Home</h4>
+												<h4>Shop</h4>
 											</div>
 											<div class="row submenu-panel">
 												<div class="col menu-wrapper">
 													<div class="sub-title">
-														<h5>Subtitle</h5>
+														<h5>Invoice</h5>
 													</div>
 													<ul>
-														<li><a href="/index-2.php">Home 2</a></li>
-														<li><a href="/index-2.php">Home 3</a></li>
-														<li><a href="/index-2.php">Home 4</a></li>
-														<li><a href="/index-2.php">Home 5</a></li>
+														<li><a href="/shop-invoice-1.php">Invoice 1</a></li>
+														<li><a href="/shop-invoice-2.php">Invoice 2</a></li>
+														<li><a href="/shop-invoice-3.php">Invoice 3</a></li>
+														<li><a href="/shop-invoice-4.php">Invoice 4</a></li>
+														<li><a href="/shop-invoice-5.php">Invoice 5</a></li>
+														<li><a href="/shop-invoice-6.php">Invoice 6</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Products</h5>
+													</div>
+													<ul>
+														<li><a href="/shop-product-full.php">Product 1</a></li>
+														<li><a href="/shop-product-full.php">Product 2</a></li>
+														<li><a href="/shop-product-full.php">Product 3</a></li>
+														<li><a href="/shop-product-full.php">Product 4</a></li>
+														<li><a href="/shop-product-full.php">Product 5</a></li>
+														<li><a href="/shop-product-full.php">Product 6</a></li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Products</h5>
+													</div>
+													<ul>
+														<li><a href="/shop-product-full.php">Product 1</a></li>
+														<li><a href="/shop-product-full.php">Product 2</a></li>
+														<li><a href="/shop-product-full.php">Product 3</a></li>
+														<li><a href="/shop-product-full.php">Product 4</a></li>
+														<li><a href="/shop-product-full.php">Product 5</a></li>
+														<li><a href="/shop-product-full.php">Product 6</a></li>
 													</ul>
 												</div>
 											</div>
