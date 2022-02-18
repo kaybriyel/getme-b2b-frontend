@@ -187,7 +187,7 @@
 					<div class="header-right">
 						<div class="search-style-2 position-relative">
 							<form action="#">
-								<button id="toggleButton" onclick="allCategoryDropdown.classList.toggle('open')">All Categories<i class="fi-rs-angle-small-down"></i></button>
+								<button id="toggleButton" onclick="allCategoryDropdown.classList.toggle('open');$('.click_away').css('z-index', $(this).css('z-index')).toggleClass('d-none')">All Categories<i class="fi-rs-angle-small-down"></i></button>
 								<input type="text" placeholder="Search for items..." />
 							</form>
 							<div id="allCategoryDropdown" class="main-menu-dropdown-wrapper categories-dropdown-active-large font-heading">
@@ -473,7 +473,7 @@
 									</div>
 								</div> -->
 								<div id="signInWrapper" class="signin-action">
-									<button id="toggleBtn" onclick="signInWrapper.classList.toggle('open')">Sign in</button>
+									<button id="toggleBtn" onclick="$(signInWrapper).toggleClass('open'); $('.click_away').css('z-index', $(this).css('z-index')).toggleClass('d-none')">Sign in</button>
 									<div class="dropdown-action-panel">
 										<div class="row">
 											<div class="col-lg-5 pr-30 d-lg-block left">
@@ -5780,6 +5780,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="click_away d-none" onclick="$(signInWrapper, allCategoryDropdown).removeClass('open');$(this).addClass('d-none')"></div>
 	<!-- Vendor JS-->
 	<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
