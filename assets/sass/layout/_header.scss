@@ -810,20 +810,33 @@
 			}
 		}
 
-		button {
-			position: absolute;
-			right: 0px;
-			top: 50%;
-			-webkit-transform: translateY(-50%);
-			-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
-			background-color: transparent;
-			padding: 0;
+		#toggleButton {
+			background-color: #fff;
 			border: none;
-			font-size: 20px;
-			color: $color-brand;
-			height: 100%;
-			padding: 5px 17px;
+			box-shadow: 5px 5px 15px var(--grey);
+			color: #253d4e;
+			font-family: "Quicksand", sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			padding: 0;
+			width: 200px;
+			position: relative;
+
+			i {
+				position: absolute;
+				right: 8px;
+				top: 18px;
+			}
+
+			&::before {
+				position: absolute;
+				content: "";
+				width: 0px;
+				border-left: 1px solid #3636366e;
+				height: 20px;
+				right: 0;
+				top: 15px;
+			}
 		}
 	}
 }
@@ -1532,7 +1545,6 @@
 				left: 4px;
 			}
 		}
-
 		.dropdown-action-panel {
 			padding: 10px 26px;
 			border-radius: 5px;
@@ -1691,54 +1703,53 @@
 		color: #fff !important;
 	}
 
-	.main-menu-dropdown {
-		--grey: rgba(0,0,0, 0.05);
-		.main-menu-dropdown-wrapper {
-			min-width: 600px;
-			margin: 0;
-			padding: 12px 0;
-			top: 70px;
-			.left {
-				border-right: 1px solid var(--grey);
-				.menu-panel {
-					ul {
-						li {
-							position: relative;
-							padding: 10px 20px;
-							a {
-								i {
-									right: 25px;
-									position: absolute;
-								}
+	.main-menu-dropdown-wrapper {
+		--grey: rgba(0, 0, 0, 0.05);
+		min-width: 600px;
+		margin: 0;
+		padding: 12px 0;
+		top: 65px;
+		left: -2px;
+		.left {
+			border-right: 1px solid var(--grey);
+			.menu-panel {
+				ul {
+					li {
+						position: relative;
+						padding: 10px 20px;
+						a {
+							i {
+								right: 25px;
+								position: absolute;
 							}
+						}
 
-							&:hover {
-								background-color: var(--bs-light);
-								cursor: pointer;
-							}
+						&:hover {
+							background-color: var(--bs-light);
+							cursor: pointer;
 						}
 					}
 				}
 			}
+		}
 
-			.right {
-				.menu-panel {
-					.title {
-						margin-bottom: 10px;
-						h4 {
+		.right {
+			.menu-panel {
+				.title {
+					margin-bottom: 10px;
+					h4 {
+						padding: 0;
+					}
+				}
+				.submenu-panel {
+					.sub-title {
+						h5 {
 							padding: 0;
 						}
 					}
-					.submenu-panel {
-						.sub-title {
-							h5 {
-								padding: 0;
-							}
-						}
-						ul {
-							li {
-								padding: 0;
-							}
+					ul {
+						li {
+							padding: 0;
 						}
 					}
 				}

@@ -185,23 +185,87 @@
 						<a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
 					</div>
 					<div class="header-right">
-						<div class="search-style-2">
+						<div class="search-style-2 position-relative">
 							<form action="#">
-								<select class="select-active">
-									<option>All Categories</option>
-									<option>Milks and Dairies</option>
-									<option>Wines & Alcohol</option>
-									<option>Clothing & Beauty</option>
-									<option>Pet Foods & Toy</option>
-									<option>Fast food</option>
-									<option>Baking material</option>
-									<option>Vegetables</option>
-									<option>Fresh Seafood</option>
-									<option>Noodles & Rice</option>
-									<option>Ice cream</option>
-								</select>
+								<button id="toggleButton" onclick="allCategoryDropdown.classList.toggle('open')">All Categories<i class="fi-rs-angle-small-down"></i></button>
 								<input type="text" placeholder="Search for items..." />
 							</form>
+							<div id="allCategoryDropdown" class="main-menu-dropdown-wrapper categories-dropdown-active-large font-heading">
+								<div class="row m-0">
+									<div class="col-4 p-0 left">
+										<div class="menu-panel h5">
+											<ul>
+												<li>
+													<a href="#">Home<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Shop<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Vendors<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Mega menu<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Blog<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Page<i class="fi-rs-angle-right"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-8 right">
+										<div class="menu-panel">
+											<div class="title">
+												<h4>Title</h4>
+											</div>
+											<div class="row submenu-panel">
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="header-action-right">
 							<div class="header-action-2">
@@ -393,88 +457,7 @@
 						<a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
 					</div>
 					<div class="header-nav d-none d-lg-flex">
-						<div class="main-menu-dropdown main-categori-wrap d-none d-lg-block">
-							<a class="categories-button-active" href="#">
-								<span class="fi-rs-apps"></span> <span class="et">Main</span> Menu
-								<i class="fi-rs-angle-down"></i>
-							</a>
-							<div class="main-menu-dropdown-wrapper categories-dropdown-active-large font-heading">
-								<div class="row m-0">
-									<div class="col-4 p-0 left">
-										<div class="menu-panel h5">
-											<ul>
-												<li>
-													<a href="#">Home<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
-													<a href="#">Shop<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
-													<a href="#">Vendors<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
-													<a href="#">Mega menu<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
-													<a href="#">Blog<i class="fi-rs-angle-right"></i></a>
-												</li>
-												<li>
-													<a href="#">Page<i class="fi-rs-angle-right"></i></a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-8 right">
-										<div class="menu-panel">
-											<div class="title">
-												<h4>Title</h4>
-											</div>
-											<div class="row submenu-panel">
-												<div class="col menu-wrapper">
-													<div class="sub-title">
-														<h5>Subtitle</h5>
-													</div>
-													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-													</ul>
-												</div>
-												<div class="col menu-wrapper">
-													<div class="sub-title">
-														<h5>Subtitle</h5>
-													</div>
-													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-													</ul>
-												</div>
-												<div class="col menu-wrapper">
-													<div class="sub-title">
-														<h5>Subtitle</h5>
-													</div>
-													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+
 						<!-- <div class="main-categori-wrap d-none d-lg-block">
 							<a class="categories-button-active" href="#">
 								<span class="fi-rs-apps"></span> <span class="et">Trending</span> Categories
@@ -5721,8 +5704,8 @@
 	<script src="assets/js/plugins/jquery.theia.sticky.js"></script>
 	<script src="assets/js/plugins/jquery.elevatezoom.js"></script>
 	<!-- Template  JS -->
-	<script src="assets/js/main.js?v=4.0"></script>
-	<script src="assets/js/shop.js?v=4.0"></script>
+	<script src="assets/js/main.js?t=<?php echo time() ?>"></script>
+	<script src="assets/js/shop.js?t=<?php echo time() ?>"></script>
 </body>
 
 </html>
