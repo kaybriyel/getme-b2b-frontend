@@ -312,54 +312,68 @@
 									</div>
 								</div> -->
 								<div id="signInWrapper" class="signin-action">
-									<button id="toggleBtn" onclick="signInWrapper.classList.toggle('active')">Sign in</button>
-									<div class="action-panel">
+									<button id="toggleBtn" onclick="signInWrapper.classList.toggle('open')">Sign in</button>
+									<div class="dropdown-action-panel">
 										<div class="row">
-											<div class="col">
-												<div class="row">
-													<div class="col-lg-5 pr-30 d-none d-lg-block">
-														<img class="border-radius-15 h-100" src="assets/imgs/page/login-1.png" alt="" />
-													</div>
-													<div class="col-lg-7 col-md-8">
-														<div class="login_wrap widget-taber-content background-white">
-															<div class="padding_eight_all bg-white">
-																<div class="heading_s1">
-																	<h1 class="mb-5">Login</h1>
-																	<p class="mb-30">Don't have an account? <a href="page-register.php">Create here</a></p>
-																</div>
-																<form method="post">
-																	<div class="form-group">
-																		<input type="text" required="" name="email" placeholder="Username or Email *" />
-																	</div>
-																	<div class="form-group">
-																		<input required="" type="password" name="password" placeholder="Your password *" />
-																	</div>
-																	<div class="login_footer form-group">
-																		<div class="chek-form">
-																			<input type="text" required="" name="email" placeholder="Security code *" />
-																		</div>
-																		<span class="security-code">
-																			<b class="text-new">8</b>
-																			<b class="text-hot">6</b>
-																			<b class="text-sale">7</b>
-																			<b class="text-best">5</b>
-																		</span>
-																	</div>
-																	<div class="login_footer form-group mb-50">
-																		<div class="chek-form">
-																			<div class="custome-checkbox">
-																				<input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="" />
-																				<label class="form-check-label" for="exampleCheckbox1"><span>Remember me</span></label>
-																			</div>
-																		</div>
-																		<a class="text-muted" href="#">Forgot password?</a>
-																	</div>
-																	<div class="form-group">
-																		<button type="submit" class="btn btn-heading btn-block hover-up" name="login">Log in</button>
-																	</div>
-																</form>
-															</div>
+											<div class="col-lg-5 pr-30 d-lg-block left">
+												<div class="cart-dropdown-wrap h5">
+													<ul>
+														<li>
+															<a href="page-account.php"><i class="fi fi-rs-user mr-10"></i>My Account</a>
+														</li>
+														<li>
+															<a href="page-account.php"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a>
+														</li>
+														<li>
+															<a href="page-account.php"><i class="fi fi-rs-label mr-10"></i>My Voucher</a>
+														</li>
+														<li>
+															<a href="shop-wishlist.php"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a>
+														</li>
+														<li>
+															<a href="page-account.php"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-8 right">
+												<div class="login_wrap widget-taber-content background-white">
+													<div class="bg-white">
+														<div class="heading_s1">
+															<h1 class="mb-5">Login</h1>
+															<p class="mb-30">Don't have an account? <a href="page-register.php">Create here</a></p>
 														</div>
+														<form method="post">
+															<div class="form-group">
+																<input type="text" required="" name="email" placeholder="Username or Email *" />
+															</div>
+															<div class="form-group">
+																<input required="" type="password" name="password" placeholder="Your password *" />
+															</div>
+															<div class="login_footer form-group">
+																<div class="chek-form">
+																	<input type="text" required="" name="email" placeholder="Security code *" />
+																</div>
+																<span class="security-code">
+																	<b class="text-new">8</b>
+																	<b class="text-hot">6</b>
+																	<b class="text-sale">7</b>
+																	<b class="text-best">5</b>
+																</span>
+															</div>
+															<div class="login_footer form-group mb-50">
+																<div class="chek-form">
+																	<div class="custome-checkbox">
+																		<input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="" />
+																		<label class="form-check-label" for="exampleCheckbox1"><span>Remember me</span></label>
+																	</div>
+																</div>
+																<a class="text-muted" href="#">Forgot password?</a>
+															</div>
+															<div class="form-group">
+																<button type="submit" class="btn btn-heading btn-block hover-up" name="login">Log in</button>
+															</div>
+														</form>
 													</div>
 												</div>
 											</div>
@@ -379,6 +393,62 @@
 						<a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
 					</div>
 					<div class="header-nav d-none d-lg-flex">
+						<div class="main-menu-dropdown main-categori-wrap d-none d-lg-block">
+							<a class="categories-button-active" href="#">
+								<span class="fi-rs-apps"></span> <span class="et">Main</span> Menu
+								<i class="fi-rs-angle-down"></i>
+							</a>
+							<div class="main-menu-dropdown-wrapper categories-dropdown-active-large font-heading">
+								<div class="row m-0">
+									<div class="col-4 p-0 left">
+										<div class="menu-panel h5">
+											<ul>
+												<li>
+													<a href="#">Home<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Shop<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Vendors<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Mega menu<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Blog<i class="fi-rs-angle-right"></i></a>
+												</li>
+												<li>
+													<a href="#">Page<i class="fi-rs-angle-right"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-8 right">
+										<div class="menu-panel">
+											<div class="title">
+												<h4>Title</h4>
+											</div>
+											<div class="row submenu-panel">
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="main-categori-wrap d-none d-lg-block">
 							<a class="categories-button-active" href="#">
 								<span class="fi-rs-apps"></span> <span class="et">Trending</span> Categories
@@ -449,20 +519,22 @@
 								<ul>
 									<li class="hot-deals"><img src="assets/imgs/theme/icons/icon-hot-white.svg" alt="hot deals" /><a href="shop-grid-right.php">Hot Deals</a></li>
 									<li>
-										<a class="active" href="index.php">Home <i class="fi-rs-angle-down"></i></a>
-										<ul class="sub-menu">
-											<li><a href="index.php">Home 1</a></li>
-											<li><a href="index-2.php">Home 2</a></li>
+										<a class="active" href="index.php">Home
+											<!--<i class="fi-rs-angle-down"></i>-->
+										</a>
+										<!-- <ul class="sub-menu"> -->
+										<!-- <li><a href="index.php">Home 1</a></li> -->
+										<!-- <li><a href="index-2.php">Home 2</a></li>
 											<li><a href="index-3.php">Home 3</a></li>
 											<li><a href="index-4.php">Home 4</a></li>
 											<li><a href="index.php">Home 5</a></li>
-											<li><a href="index-6.php">Home 6</a></li>
-										</ul>
+											<li><a href="index-6.php">Home 6</a></li> -->
+										<!-- </ul> -->
 									</li>
-									<li>
+									<!-- <li>
 										<a href="page-about.php">About</a>
-									</li>
-									<li>
+									</li> -->
+									<!-- <li>
 										<a href="shop-grid-right.php">Shop <i class="fi-rs-angle-down"></i></a>
 										<ul class="sub-menu">
 											<li><a href="shop-grid-right.php">Shop Grid – Right Sidebar</a></li>
@@ -496,8 +568,8 @@
 												</ul>
 											</li>
 										</ul>
-									</li>
-									<li>
+									</li> -->
+									<!-- <li>
 										<a href="#">Vendors <i class="fi-rs-angle-down"></i></a>
 										<ul class="sub-menu">
 											<li><a href="vendors-grid.php">Vendors Grid</a></li>
@@ -507,8 +579,8 @@
 											<li><a href="vendor-dashboard.php">Vendor Dashboard</a></li>
 											<li><a href="vendor-guide.php">Vendor Guide</a></li>
 										</ul>
-									</li>
-									<li class="position-static">
+									</li> -->
+									<!-- <li class="position-static">
 										<a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
 										<ul class="mega-menu">
 											<li class="sub-mega-menu sub-mega-menu-width-22">
@@ -569,8 +641,8 @@
 												</div>
 											</li>
 										</ul>
-									</li>
-									<li>
+									</li> -->
+									<!-- <li>
 										<a href="blog-category-grid.php">Blog <i class="fi-rs-angle-down"></i></a>
 										<ul class="sub-menu">
 											<li><a href="blog-category-grid.php">Blog Category Grid</a></li>
@@ -586,8 +658,8 @@
 												</ul>
 											</li>
 										</ul>
-									</li>
-									<li>
+									</li> -->
+									<!-- <li>
 										<a href="#">Pages <i class="fi-rs-angle-down"></i></a>
 										<ul class="sub-menu">
 											<li><a href="page-about.php">About Us</a></li>
@@ -600,7 +672,7 @@
 											<li><a href="page-terms.php">Terms of Service</a></li>
 											<li><a href="page-404.php">404 Page</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li>
 										<a href="page-contact.php">Contact</a>
 									</li>

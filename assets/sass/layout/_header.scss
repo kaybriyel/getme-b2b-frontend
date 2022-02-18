@@ -1502,7 +1502,7 @@
 	}
 
 	.signin-action {
-		--black: rgba(0, 0, 0, 0.05);
+		--grey: rgba(0, 0, 0, 0.05);
 		position: relative;
 		#toggleBtn {
 			padding: 10px 26px;
@@ -1510,8 +1510,9 @@
 			border-radius: 5px;
 			background-color: #fff;
 			border: 1px solid #ececec;
-			box-shadow: 5px 5px 15px var(--black);
+			box-shadow: 5px 5px 15px var(--grey);
 			position: relative;
+			color: #333;
 
 			&:hover {
 				transform: translateY(-3px);
@@ -1532,28 +1533,50 @@
 			}
 		}
 
-		.action-panel {
+		.dropdown-action-panel {
 			padding: 10px 26px;
 			border-radius: 5px;
 			background-color: #fff;
 			border: 1px solid #ececec;
-			box-shadow: 5px 5px 15px var(--black);
+			box-shadow: 5px 5px 15px var(--grey);
 			position: absolute;
 			z-index: 3;
-			width: max-content;
+			width: 800px;
 			max-width: 800px;
 			right: 0px;
 			top: 58px;
 			display: none;
 
-			// .col:nth-child(1) {
-			// 	border-right: 1px solid var(--black);
-			// }
+			.left {
+				border-right: 1px solid var(--grey);
+				.cart-dropdown-wrap {
+					visibility: visible;
+					opacity: 1;
+					position: relative;
+					top: 0;
+					border: none;
+					box-shadow: none;
+					width: auto;
+
+					a {
+						color: #333;
+						&:hover {
+							color: $color-brand;
+						}
+					}
+				}
+			}
+
+			.right {
+				.login_wrap {
+					padding: 15px;
+				}
+			}
 		}
 	}
 
-	.signin-action.active {
-		.action-panel {
+	.signin-action.open {
+		.dropdown-action-panel {
 			display: block;
 		}
 	}
@@ -1666,6 +1689,61 @@
 
 	.main-categori-wrap > a span {
 		color: #fff !important;
+	}
+
+	.main-menu-dropdown {
+		--grey: rgba(0,0,0, 0.05);
+		.main-menu-dropdown-wrapper {
+			min-width: 600px;
+			margin: 0;
+			padding: 12px 0;
+			top: 70px;
+			.left {
+				border-right: 1px solid var(--grey);
+				.menu-panel {
+					ul {
+						li {
+							position: relative;
+							padding: 10px 20px;
+							a {
+								i {
+									right: 25px;
+									position: absolute;
+								}
+							}
+
+							&:hover {
+								background-color: var(--bs-light);
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+
+			.right {
+				.menu-panel {
+					.title {
+						margin-bottom: 10px;
+						h4 {
+							padding: 0;
+						}
+					}
+					.submenu-panel {
+						.sub-title {
+							h5 {
+								padding: 0;
+							}
+						}
+						ul {
+							li {
+								padding: 0;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 .header-style-1.header-style-5 {
