@@ -7425,6 +7425,12 @@ h6.post-title {
   position: relative;
   padding: 10px 20px;
 }
+.header-style-1 .main-menu-dropdown-wrapper .left .menu-panel ul li a {
+  color: #333;
+}
+.header-style-1 .main-menu-dropdown-wrapper .left .menu-panel ul li a:hover {
+  color: #3BB77E;
+}
 .header-style-1 .main-menu-dropdown-wrapper .left .menu-panel ul li a i {
   right: 25px;
   position: absolute;
@@ -7432,6 +7438,9 @@ h6.post-title {
 .header-style-1 .main-menu-dropdown-wrapper .left .menu-panel ul li:hover {
   background-color: var(--bs-light);
   cursor: pointer;
+}
+.header-style-1 .main-menu-dropdown-wrapper .left .menu-panel ul li:hover a {
+  color: #3BB77E;
 }
 .header-style-1 .main-menu-dropdown-wrapper .right {
   padding-left: 30px;
@@ -7441,20 +7450,27 @@ h6.post-title {
   margin-bottom: 15px;
 }
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .title h4 {
+  color: #3BB77E;
   padding: 0;
 }
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel .sub-title {
   margin-bottom: 10px;
 }
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel .sub-title h5 {
+  color: #FDC040;
   padding: 0;
 }
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li {
   padding: 6px 0;
 }
+.header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li a {
+  color: #333;
+}
+.header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li a:hover {
+  color: #3BB77E;
+}
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li:hover {
   cursor: pointer;
-  color: #3BB77E;
 }
 
 .header-style-1.header-style-5 .header-bottom-bg-color {

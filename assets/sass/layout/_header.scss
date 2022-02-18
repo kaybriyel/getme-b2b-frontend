@@ -1718,6 +1718,10 @@
 						position: relative;
 						padding: 10px 20px;
 						a {
+							color: #333;
+							&:hover {
+								color: $color-brand;
+							}
 							i {
 								right: 25px;
 								position: absolute;
@@ -1727,6 +1731,9 @@
 						&:hover {
 							background-color: var(--bs-light);
 							cursor: pointer;
+							a {
+								color: $color-brand;
+							}
 						}
 					}
 				}
@@ -1740,6 +1747,7 @@
 				.title {
 					margin-bottom: 15px;
 					h4 {
+						color: $color-brand;
 						padding: 0;
 					}
 				}
@@ -1747,16 +1755,21 @@
 					.sub-title {
 						margin-bottom: 10px;
 						h5 {
+							color: $color-brand-2;
 							padding: 0;
 						}
 					}
 					ul {
 						li {
 							padding: 6px 0;
-							&:hover {
-								cursor: pointer;
-								color: $color-brand;
+							a {
+								color: #333;
+								&:hover {
+									color: $color-brand;
+								}
 							}
+							&:hover {
+								cursor: pointer;							}
 						}
 					}
 				}
