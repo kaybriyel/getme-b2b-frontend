@@ -443,6 +443,32 @@
 														<li>Menu</li>
 													</ul>
 												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
+												<div class="col menu-wrapper">
+													<div class="sub-title">
+														<h5>Subtitle</h5>
+													</div>
+													<ul>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+														<li>Menu</li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
