@@ -192,6 +192,7 @@
 							</form>
 							<div id="allCategoryDropdown" class="main-menu-dropdown-wrapper categories-dropdown-active-large font-heading">
 								<div class="row m-0">
+									<!-- left menu -->
 									<div class="col-4 p-0 left">
 										<div class="menu-panel h5">
 											<ul>
@@ -216,10 +217,11 @@
 											</ul>
 										</div>
 									</div>
+									<!-- right menu for home -->
 									<div class="col-8 right">
 										<div class="menu-panel">
 											<div class="title">
-												<h4>Title</h4>
+												<h4>Home</h4>
 											</div>
 											<div class="row submenu-panel">
 												<div class="col menu-wrapper">
@@ -227,38 +229,10 @@
 														<h5>Subtitle</h5>
 													</div>
 													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-													</ul>
-												</div>
-												<div class="col menu-wrapper">
-													<div class="sub-title">
-														<h5>Subtitle</h5>
-													</div>
-													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-													</ul>
-												</div>
-												<div class="col menu-wrapper">
-													<div class="sub-title">
-														<h5>Subtitle</h5>
-													</div>
-													<ul>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
-														<li>Menu</li>
+														<li><a href="/index-2.php">Home 2</a></li>
+														<li><a href="/index-2.php">Home 3</a></li>
+														<li><a href="/index-2.php">Home 4</a></li>
+														<li><a href="/index-2.php">Home 5</a></li>
 													</ul>
 												</div>
 											</div>

@@ -7445,6 +7445,10 @@ h6.post-title {
 .header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li {
   padding: 0;
 }
+.header-style-1 .main-menu-dropdown-wrapper .right .menu-panel .submenu-panel ul li:hover {
+  cursor: pointer;
+  color: #3BB77E;
+}
 
 .header-style-1.header-style-5 .header-bottom-bg-color {
   background-color: #3BB77E !important;

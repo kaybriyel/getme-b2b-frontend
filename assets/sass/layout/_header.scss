@@ -1750,6 +1750,10 @@
 					ul {
 						li {
 							padding: 0;
+							&:hover {
+								cursor: pointer;
+								color: $color-brand;
+							}
 						}
 					}
 				}
