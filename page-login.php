@@ -11,9 +11,9 @@
         <meta property="og:url" content="" />
         <meta property="og:image" content="" />
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="/frontend/assets/imgs/theme/favicon.svg" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
         <!-- Template CSS -->
-        <link rel="stylesheet" href="/frontend/assets/css/main.css?t=<?php echo time() ?>" />
+        <link rel="stylesheet" href="assets/css/main.css?t=<?php echo time() ?>" />
     </head>
 
     <body>
@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="header-wrap">
                         <div class="logo logo-width-1">
-                            <a href="/frontend/index.php"><img src="/frontend/assets/imgs/theme/logo.svg" alt="logo" /></a>
+                            <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                         </div>
                         <div class="header-right">
                             <div class="search-style-2">
@@ -69,49 +69,49 @@
 										</form>
 									</div>									
 									<div class="header-action-icon-2">
-										<a href="/frontend/shop-compare.php">
-											<img class="svgInject" alt="Nest" src="/frontend/assets/imgs/theme/icons/icon-compare.svg" />
+										<a href="shop-compare.php">
+											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-compare.svg" />
 											<span class="pro-count blue">3</span>
 										</a>
-										<a href="/frontend/shop-compare.php"><span class="lable ml-0">Compare</span></a>
+										<a href="shop-compare.php"><span class="lable ml-0">Compare</span></a>
 									</div>
 									<div class="header-action-icon-2">
-										<a href="/frontend/shop-wishlist.php">
-											<img class="svgInject" alt="Nest" src="/frontend/assets/imgs/theme/icons/icon-heart.svg" />
+										<a href="shop-wishlist.php">
+											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-heart.svg" />
 											<span class="pro-count blue">6</span>
 										</a>
-										<a href="/frontend/shop-wishlist.php"><span class="lable">Wishlist</span></a>
+										<a href="shop-wishlist.php"><span class="lable">Wishlist</span></a>
 									</div>
 									<div class="header-action-icon-2">
-										<a class="mini-cart-icon" href="/frontend/shop-cart.php">
-											<img alt="Nest" src="/frontend/assets/imgs/theme/icons/icon-cart.svg" />
+										<a class="mini-cart-icon" href="shop-cart.php">
+											<img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
 											<span class="pro-count blue">2</span>
 										</a>
-										<a href="/frontend/shop-cart.php"><span class="lable">Cart</span></a>
+										<a href="shop-cart.php"><span class="lable">Cart</span></a>
 										<div class="cart-dropdown-wrap cart-dropdown-hm2">
 											<ul>
 												<li>
 													<div class="shopping-cart-img">
-														<a href="/frontend/shop-product-right.php"><img alt="Nest" src="/frontend/assets/imgs/shop/thumbnail-3.jpg" /></a>
+														<a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
 													</div>
 													<div class="shopping-cart-title">
-														<h4><a href="/frontend/shop-product-right.php">Daisy Casual Bag</a></h4>
+														<h4><a href="shop-product-right.php">Daisy Casual Bag</a></h4>
 														<h4><span>1 × </span>$800.00</h4>
 													</div>
 													<div class="shopping-cart-delete">
-														<a href="/frontend/#"><i class="fi-rs-cross-small"></i></a>
+														<a href="#"><i class="fi-rs-cross-small"></i></a>
 													</div>
 												</li>
 												<li>
 													<div class="shopping-cart-img">
-														<a href="/frontend/shop-product-right.php"><img alt="Nest" src="/frontend/assets/imgs/shop/thumbnail-2.jpg" /></a>
+														<a href="shop-product-right.php"><img alt="Nest" src="assets/imgs/shop/thumbnail-2.jpg" /></a>
 													</div>
 													<div class="shopping-cart-title">
-														<h4><a href="/frontend/shop-product-right.php">Corduroy Shirts</a></h4>
+														<h4><a href="shop-product-right.php">Corduroy Shirts</a></h4>
 														<h4><span>1 × </span>$3200.00</h4>
 													</div>
 													<div class="shopping-cart-delete">
-														<a href="/frontend/#"><i class="fi-rs-cross-small"></i></a>
+														<a href="#"><i class="fi-rs-cross-small"></i></a>
 													</div>
 												</li>
 											</ul>
@@ -120,25 +120,25 @@
 													<h4>Total <span>$4000.00</span></h4>
 												</div>
 												<div class="shopping-cart-button">
-													<a href="/frontend/shop-cart.php" class="outline">View cart</a>
-													<a href="/frontend/shop-checkout.php">Checkout</a>
+													<a href="shop-cart.php" class="outline">View cart</a>
+													<a href="shop-checkout.php">Checkout</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="header-action-icon-2">
-										<a href="/frontend/page-account.php">
-											<img class="svgInject" alt="Nest" src="/frontend/assets/imgs/theme/icons/icon-user.svg" />
+										<a href="page-account.php">
+											<img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-user.svg" />
 										</a>
-										<a href="/frontend/page-account.php"><span class="lable ml-0">Account</span></a>
+										<a href="page-account.php"><span class="lable ml-0">Account</span></a>
 										<div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
 											<ul>
-												<li><a href="/frontend/page-account.php"><i class="fi fi-rs-user mr-10"></i>My Account</a></li>
-												<li><a href="/frontend/page-account.php"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a></li>
-												<li><a href="/frontend/page-account.php"><i class="fi fi-rs-label mr-10"></i>My Voucher</a></li>
-												<li><a href="/frontend/shop-wishlist.php"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a></li>
-												<li><a href="/frontend/page-account.php"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a></li>
-												<li><a href="/frontend/page-login.php"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a></li>
+												<li><a href="page-account.php"><i class="fi fi-rs-user mr-10"></i>My Account</a></li>
+												<li><a href="page-account.php"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a></li>
+												<li><a href="page-account.php"><i class="fi fi-rs-label mr-10"></i>My Voucher</a></li>
+												<li><a href="shop-wishlist.php"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a></li>
+												<li><a href="page-account.php"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a></li>
+												<li><a href="page-login.php"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a></li>
 											</ul>											
 										</div>
 									</div>
@@ -152,11 +152,11 @@
                 <div class="container">
                     <div class="header-wrap header-space-between position-relative">
                         <div class="logo logo-width-1 d-block d-lg-none">
-                            <a href="/frontend/index.php"><img src="/frontend/assets/imgs/theme/logo.svg" alt="logo" /></a>
+                            <a href="index.php"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                         </div>
                         <div class="header-nav d-none d-lg-flex">
                             <div class="main-categori-wrap d-none d-lg-block">
-                                <a class="categories-button-active" href="/frontend/#">
+                                <a class="categories-button-active" href="#">
                                     <span class="fi-rs-apps"></span> <span class="et">Browse</span> All Categories
                                     <i class="fi-rs-angle-down"></i>
                                 </a>
@@ -164,36 +164,36 @@
                                     <div class="d-flex categori-dropdown-inner">
                                         <ul>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
                                             </li>
                                         </ul>
                                         <ul class="end">
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
                                             </li>
                                             <li>
-                                                <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
+                                                <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -201,18 +201,18 @@
                                         <div class="d-flex categori-dropdown-inner">
                                             <ul>
                                                 <li>
-                                                    <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
+                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
+                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
                                                 </li>
                                             </ul>
                                             <ul class="end">
                                                 <li>
-                                                    <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
+                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/frontend/shop-grid-right.php"> <img src="/frontend/assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
+                                                    <a href="shop-grid-right.php"> <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -223,77 +223,77 @@
                             <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
                                 <nav>
                                     <ul>
-                                        <li class="hot-deals"><img src="/frontend/assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="/frontend/shop-grid-right.php">Hot Deals</a></li>
+                                        <li class="hot-deals"><img src="assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="shop-grid-right.php">Hot Deals</a></li>
                                         <li>
-                                            <a class="active" href="/frontend/index.php">Home <i class="fi-rs-angle-down"></i></a>
+                                            <a class="active" href="index.php">Home <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="/frontend/index.php">Home 1</a></li>
-                                                <li><a href="/frontend/index-2.php">Home 2</a></li>
-                                                <li><a href="/frontend/index-3.php">Home 3</a></li>
-                                                <li><a href="/frontend/index-4.php">Home 4</a></li>
-                                        <li><a href="/frontend/index.php">Home 5</a></li>
-                                        <li><a href="/frontend/index-6.php">Home 6</a></li>
+                                                <li><a href="index.php">Home 1</a></li>
+                                                <li><a href="index-2.php">Home 2</a></li>
+                                                <li><a href="index-3.php">Home 3</a></li>
+                                                <li><a href="index-4.php">Home 4</a></li>
+                                        <li><a href="index.php">Home 5</a></li>
+                                        <li><a href="index-6.php">Home 6</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="/frontend/page-about.php">About</a>
+                                            <a href="page-about.php">About</a>
                                         </li>
                                         <li>
-                                            <a href="/frontend/shop-grid-right.php">Shop <i class="fi-rs-angle-down"></i></a>
+                                            <a href="shop-grid-right.php">Shop <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="/frontend/shop-grid-right.php">Shop Grid – Right Sidebar</a></li>
-                                                <li><a href="/frontend/shop-grid-left.php">Shop Grid – Left Sidebar</a></li>
-                                                <li><a href="/frontend/shop-list-right.php">Shop List – Right Sidebar</a></li>
-                                                <li><a href="/frontend/shop-list-left.php">Shop List – Left Sidebar</a></li>
-                                                <li><a href="/frontend/shop-fullwidth.php">Shop - Wide</a></li>
+                                                <li><a href="shop-grid-right.php">Shop Grid – Right Sidebar</a></li>
+                                                <li><a href="shop-grid-left.php">Shop Grid – Left Sidebar</a></li>
+                                                <li><a href="shop-list-right.php">Shop List – Right Sidebar</a></li>
+                                                <li><a href="shop-list-left.php">Shop List – Left Sidebar</a></li>
+                                                <li><a href="shop-fullwidth.php">Shop - Wide</a></li>
                                                 <li>
-                                                    <a href="/frontend/#">Single Product <i class="fi-rs-angle-right"></i></a>
+                                                    <a href="#">Single Product <i class="fi-rs-angle-right"></i></a>
                                                     <ul class="level-menu">
-                                                        <li><a href="/frontend/shop-product-right.php">Product – Right Sidebar</a></li>
-                                                        <li><a href="/frontend/shop-product-left.php">Product – Left Sidebar</a></li>
-                                                        <li><a href="/frontend/shop-product-full.php">Product – No sidebar</a></li>
-                                                        <li><a href="/frontend/shop-product-vendor.php">Product – Vendor Infor</a></li>
+                                                        <li><a href="shop-product-right.php">Product – Right Sidebar</a></li>
+                                                        <li><a href="shop-product-left.php">Product – Left Sidebar</a></li>
+                                                        <li><a href="shop-product-full.php">Product – No sidebar</a></li>
+                                                        <li><a href="shop-product-vendor.php">Product – Vendor Infor</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="/frontend/shop-filter.php">Shop – Filter</a></li>
-                                                <li><a href="/frontend/shop-wishlist.php">Shop – Wishlist</a></li>
-                                                <li><a href="/frontend/shop-cart.php">Shop – Cart</a></li>
-                                                <li><a href="/frontend/shop-checkout.php">Shop – Checkout</a></li>
-                                                <li><a href="/frontend/shop-compare.php">Shop – Compare</a></li>
+                                                <li><a href="shop-filter.php">Shop – Filter</a></li>
+                                                <li><a href="shop-wishlist.php">Shop – Wishlist</a></li>
+                                                <li><a href="shop-cart.php">Shop – Cart</a></li>
+                                                <li><a href="shop-checkout.php">Shop – Checkout</a></li>
+                                                <li><a href="shop-compare.php">Shop – Compare</a></li>
                                                 <li>
-                                                    <a href="/frontend/#">Shop Invoice<i class="fi-rs-angle-right"></i></a>
+                                                    <a href="#">Shop Invoice<i class="fi-rs-angle-right"></i></a>
                                                     <ul class="level-menu">
-                                                        <li><a href="/frontend/shop-invoice-1.php">Shop Invoice 1</a></li>
-                                                        <li><a href="/frontend/shop-invoice-2.php">Shop Invoice 2</a></li>
-                                                        <li><a href="/frontend/shop-invoice-3.php">Shop Invoice 3</a></li>
-                                                        <li><a href="/frontend/shop-invoice-4.php">Shop Invoice 4</a></li>
-                                                        <li><a href="/frontend/shop-invoice-5.php">Shop Invoice 5</a></li>
-                                                        <li><a href="/frontend/shop-invoice-6.php">Shop Invoice 6</a></li>
+                                                        <li><a href="shop-invoice-1.php">Shop Invoice 1</a></li>
+                                                        <li><a href="shop-invoice-2.php">Shop Invoice 2</a></li>
+                                                        <li><a href="shop-invoice-3.php">Shop Invoice 3</a></li>
+                                                        <li><a href="shop-invoice-4.php">Shop Invoice 4</a></li>
+                                                        <li><a href="shop-invoice-5.php">Shop Invoice 5</a></li>
+                                                        <li><a href="shop-invoice-6.php">Shop Invoice 6</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="/frontend/#">Vendors <i class="fi-rs-angle-down"></i></a>
+                                            <a href="#">Vendors <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="/frontend/vendors-grid.php">Vendors Grid</a></li>
-                                                <li><a href="/frontend/vendors-list.php">Vendors List</a></li>
-                                                <li><a href="/frontend/vendor-details-1.php">Vendor Details 01</a></li>
-                                                <li><a href="/frontend/vendor-details-2.php">Vendor Details 02</a></li>
-                                                <li><a href="/frontend/vendor-dashboard.php">Vendor Dashboard</a></li>
-                                                <li><a href="/frontend/vendor-guide.php">Vendor Guide</a></li>
+                                                <li><a href="vendors-grid.php">Vendors Grid</a></li>
+                                                <li><a href="vendors-list.php">Vendors List</a></li>
+                                                <li><a href="vendor-details-1.php">Vendor Details 01</a></li>
+                                                <li><a href="vendor-details-2.php">Vendor Details 02</a></li>
+                                                <li><a href="vendor-dashboard.php">Vendor Dashboard</a></li>
+                                                <li><a href="vendor-guide.php">Vendor Guide</a></li>
                                             </ul>
                                         </li>
                                         <li class="position-static">
-                                            <a href="/frontend/#">Mega menu <i class="fi-rs-angle-down"></i></a>
+                                            <a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
                                             <ul class="mega-menu">
                                                 <li class="sub-mega-menu sub-mega-menu-width-22">
-                                                    <a class="menu-title" href="/frontend/#">Fruit & Vegetables</a>
+                                                    <a class="menu-title" href="#">Fruit & Vegetables</a>
                                                     <ul>
-                                                        <li><a href="/frontend/shop-product-right.php">Meat & Poultry</a></li>
-                                                        <li><a href="/frontend/shop-product-right.php">Fresh Vegetables</a></li>
-                                                        <li><a href="/frontend/shop-product-right.php">Herbs & Seasonings</a></li>
-                                                        <li><a href="/frontend/shop-product-right.php">Cuts & Sprouts</a></li>
+                                                        <li><a href="shop-product-right.php">Meat & Poultry</a></li>
+                                                        <li><a href="shop-product-right.php">Fresh Vegetables</a></li>
+                                                        <li><a href="shop-product-right.php">Herbs & Seasonings</a></li>
+                                                        <li><a href="shop-product-right.php">Cuts & Sprouts</a></li>
                                                         <li><a href="/frontend/shop-product-right.php">Exotic Fruits & Veggies</a></li>
                                                         <li><a href="/frontend/shop-product-right.php">Packaged Produce</a></li>
                                                     </ul>

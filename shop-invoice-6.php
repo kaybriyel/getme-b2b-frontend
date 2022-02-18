@@ -11,14 +11,14 @@
         <meta property="og:url" content="" />
         <meta property="og:image" content="" />
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="/frontend/assets/imgs/theme/favicon.svg" />
-        <link rel="stylesheet" href="/frontend/assets/css/main.css?t=<?php echo time() ?>" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
+        <link rel="stylesheet" href="assets/css/main.css?t=<?php echo time() ?>" />
     </head>
 
     <body>
         <div class="invoice invoice-content invoice-6">
             <div class="back-top-home hover-up mt-30 ml-30">
-                <a class="hover-up" href="/frontend/index.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
+                <a class="hover-up" href="index.php"><i class="fi-rs-home mr-5"></i> Homepage</a>
             </div>
             <div class="container">
                 <div class="row">
@@ -27,12 +27,12 @@
                             <div class="invoice-info" id="invoice_wrapper">
                                 <div class="invoice-header">
                                     <div class="invoice-icon">
-                                        <img src="/frontend/assets/imgs/theme/icons/icon-invoice.svg" class="img-fluid" alt="">
+                                        <img src="assets/imgs/theme/icons/icon-invoice.svg" class="img-fluid" alt="">
                                     </div>
                                     <div class="row align-items-center">
                                         <div class="col-md-6">
                                             <div class="logo">
-                                                <a href="/frontend/index.php" class="mr-20"><img src="/frontend/assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                                <a href="index.php" class="mr-20"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                                             </div>
                                         </div>
                                         <div class="col-md-6 text-end">
@@ -164,8 +164,8 @@
                                 </div>
                             </div>
                             <div class="invoice-btn-section clearfix d-print-none">
-                                <a href="/frontend/javascript:window.print()" class="btn btn-lg btn-custom btn-print hover-up"> <img src="/frontend/assets/imgs/theme/icons/icon-print.svg" alt="" /> Print </a>
-                                <a id="invoice_download_btn" class="btn btn-lg btn-custom btn-download hover-up"> <img src="/frontend/assets/imgs/theme/icons/icon-download.svg" alt="" /> Download </a>
+                                <a href="javascript:window.print()" class="btn btn-lg btn-custom btn-print hover-up"> <img src="assets/imgs/theme/icons/icon-print.svg" alt="" /> Print </a>
+                                <a id="invoice_download_btn" class="btn btn-lg btn-custom btn-download hover-up"> <img src="assets/imgs/theme/icons/icon-download.svg" alt="" /> Download </a>
                             </div>
                         </div>
                     </div>
@@ -173,11 +173,11 @@
             </div>
         </div>
         <!-- Vendor JS-->
-        <script src="/frontend/assets/js/vendor/modernizr-3.6.0.min.js"></script>
-        <script src="/frontend/assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
 
         <!-- Invoice JS -->
-        <script src="/frontend/assets/js/invoice/jspdf.min.js"></script>
-        <script src="/frontend/assets/js/invoice/invoice.js"></script>
+        <script src="assets/js/invoice/jspdf.min.js"></script>
+        <script src="assets/js/invoice/invoice.js"></script>
     </body>
 </html>
